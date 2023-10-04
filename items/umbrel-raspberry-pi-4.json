@@ -1,17 +1,18 @@
 {
-  "id": "umbrel-home",
-  "name": "Umbrel Home",
-  "purchasable": true,
+  "id": "umbrel-umbrel-raspberry-pi-4",
+  "name": "Umbrel Raspberry Pi 4",
+  "purchasable": false,
+  "buildable": true,
   "basic-information": {
     "price": {
-      "value": "$499",
+      "value": "$150",
       "flag": "positive"
     },
     "amazon": {
       "supported": false
     },
     "year": {
-      "value": "2023"
+      "value": "2020"
     }
   },
   "company": {
@@ -55,47 +56,45 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "NO",
-      "flag": "negative",
+      "value": "-",
       "supported": false
     },
     "btc-lightning": {
-      "value": "NO",
-      "flag": "negative",
+      "value": "-",
       "supported": false
     },
     "alt-coins": {
-      "value": "NO",
+      "value": "-",
       "supported": false
     },
     "credit-debit-card": {
-      "value": "YES",
-      "supported": true
+      "value": "-",
+      "supported": false
     }
   },
   "size-materials": {
     "warranty": {
-      "value": "1 year"
+      "value": "-"
     },
     "weight": {
-      "value": "?"
+      "value": "46g / 1.6oz"
     },
     "dimensions": {
-      "value": "?"
+      "value": "88 x 58 x 19.5mm"
     }
   },
   "hardware": {
     "diy": {
-      "value": "NO"
+      "value": "YES"
     },
     "cpu": {
-      "value": "Intel N5105 CPU · Quad-Core · 2.0-2.9GHz"
+      "value": "Quad core Cortex-A72"
     },
     "ram": {
-      "value": "16GB Dual-Channel"
+      "value": "8GB"
     },
     "storage": {
-      "value": "2TB SSD"
+      "value": "1+ TB"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",
@@ -103,17 +102,17 @@
       "flag": "positive"
     },
     "wifi": {
-      "value": "YES",
+      "value": "802.11ac",
       "supported": true,
       "flag": "positive"
     },
     "hdmi": {
-        "value": "YES (hided)",
+        "value": "2 x micro-HDMI",
         "supported": true,
         "flag": "positive"
     },
     "usb": {
-      "value": "3 x USB 3.0",
+      "value": "2 x USB 3.0 / 2 x USB 2.0",
       "supported": true,
       "flag": "positive"
     },
