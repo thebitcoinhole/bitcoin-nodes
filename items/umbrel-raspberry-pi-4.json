@@ -107,9 +107,9 @@
       "flag": "positive"
     },
     "hdmi": {
-        "value": "2 x micro-HDMI",
-        "supported": true,
-        "flag": "positive"
+      "value": "2 x micro-HDMI",
+      "supported": true,
+      "flag": "positive"
     },
     "usb": {
       "value": "2 x USB 3.0 / 2 x USB 2.0",
