@@ -1,0 +1,232 @@
+{
+    "id": "umbrel-home",
+    "name": "Umbrel Home",
+    "purchasable": true,
+    "basic-information": {
+        "price": {
+            "value": "$499",
+            "flag": "positive"
+        },
+        "amazon": {
+            "supported": false
+        },
+        "year": {
+            "value": "2023"
+        }
+    },
+    "company": {
+        "brand": {
+            "value": "Umbrel"
+        },
+        "headquarters": {
+            "value": "-"
+        },
+        "website": {
+            "value": "Website",
+            "url": "https://umbrel.com/"
+        },
+        "blog": {
+            "value": "Blog",
+            "url": "https://blog.getumbrel.com/"
+        },
+        "twitter": {
+            "value": "@umbrel",
+            "url": "https://twitter.com/umbrel"
+        },
+        "nostr": {
+            "value": "-"
+        },
+        "youtube": {
+            "value": "@UmbrelYT",
+            "url": "https://www.youtube.com/@UmbrelYT"
+        },
+        "github": {
+            "value": "getumbrel",
+            "url": "https://github.com/getumbrel"
+        }
+    },
+    "communities": {
+        "telegram": {
+            "value": "-"
+        },
+        "reddit": {
+            "value": "-"
+        }
+    },
+    "payment-methods": {
+        "btc-on-chain": {
+            "value": "NO",
+            "flag": "negative",
+            "supported": false
+        },
+        "btc-lightning": {
+            "value": "NO",
+            "flag": "negative",
+            "supported": false
+        },
+        "alt-coins": {
+            "value": "NO",
+            "supported": false
+        },
+        "credit-debit-card": {
+            "value": "YES",
+            "supported": true
+        }
+    },
+    "size-materials": {
+        "warranty": {
+            "value": "1 year"
+        },
+        "weight": {
+            "value": "SAMPLE"
+        },
+        "dimensions": {
+            "value": "SAMPLE"
+        }
+    },
+    "hardware": {
+        "diy": {
+            "value": "NO"
+        },
+        "cpu": {
+            "value": "Intel N5105 CPU · Quad-Core · 2.0-2.9GHz"
+        },
+        "ram": {
+            "value": "16GB Dual-Channel"
+        },
+        "storage": {
+            "value": "2TB SSD"
+        },
+        "ethernet": {
+            "value": "Gigabit Ethernet",
+            "supported": true,
+            "flag": "positive"
+        },
+        "usb": {
+            "value": "3 x USB 3.0",
+            "supported": true,
+            "flag": "positive"
+        },
+        "bluetooth": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        }
+    },
+    "firmware": {
+        "upgrade": {
+            "value": "SAMPLE",
+            "flag": "negative",
+            "links": [
+                {
+                    "title": "sample",
+                    "url": "sample"
+                }
+            ]
+        },
+        "latest-version": {
+            "value": "?"
+        },
+        "latest-release-date": {
+            "value": "?"
+        },
+        "release-notes": {
+            "value": "SAMPLE",
+            "flag": "positive",
+            "links": [
+              {
+                "title": "Releases Notes",
+                "url": "SAMPLE"
+              }
+            ]
+        },
+        "source-available": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive",
+            "links": [
+                {
+                    "title": "Source Code",
+                    "url": "https://github.com/getumbrel/umbrel"
+                }
+            ]
+        },
+        "open-source": {
+            "value": "SAMPLE",
+            "supported": true,
+            "flag": "positive"
+        },
+        "license": {
+            "value": "SAMPLE",
+            "supported": false,
+            "links": [
+                {
+                    "title": "License",
+                    "url": "sample"
+                }
+            ]
+        },
+        "reproducible-builds": {
+            "value": "SAMPLE",
+            "supported": true,
+            "flag": "positive",
+            "links": [
+                {
+                    "title": "sample",
+                    "url": "sample"
+                }
+            ]
+        }
+    },
+    "other-features": {
+    },
+    "platforms": {
+        "windows": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "macos": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "linux": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        }
+    },
+    "bitcoin-apps": {
+        "bitcoin-node": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "lightning-node": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "mempool": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "btcpay-server": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "electrs": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "samourai-server": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        }
+    }
+}
