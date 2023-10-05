@@ -70,6 +70,56 @@ node json-format.js
 
 All the features supported:
 
+| Category | Category Id | Feature | Feature Id |
+| --- | --- | --- | --- |
+| Basic Information | basic-information | Price | price |
+| Basic Information | basic-information | Discounts | discounts |
+| Basic Information | basic-information | Amazon Official Store | amazon |
+| Basic Information | basic-information | Launch Year | year |
+| Company | company | Brand | brand |
+| Company | company | Headquarters | headquarters |
+| Company | company | Website | website |
+| Company | company | Blog | blog |
+| Company | company | X (Twitter) | twitter |
+| Company | company | Nostr | nostr |
+| Company | company | YouTube | youtube |
+| Company | company | GitHub / GitLab | github |
+| Communities | communities | Telegram | telegram |
+| Communities | communities | Reddit | reddit |
+| Payment Methods to buy the node | payment-methods | BTC On Chain | btc-on-chain |
+| Payment Methods to buy the node | payment-methods | BTC Lightning | btc-lightning |
+| Payment Methods to buy the node | payment-methods | Alt Coins | alt-coins |
+| Payment Methods to buy the node | payment-methods | Credit/Debit Card | credit-debit-card |
+| Size & Materials | size-materials | Warranty | warranty |
+| Size & Materials | size-materials | Weight | weight |
+| Size & Materials | size-materials | Dimensions | dimensions |
+| Hardware | hardware | DIY | diy |
+| Hardware | hardware | CPU | cpu |
+| Hardware | hardware | RAM | ram |
+| Hardware | hardware | Storage | storage |
+| Hardware | hardware | Ethernet | ethernet |
+| Hardware | hardware | Wifi | wifi |
+| Hardware | hardware | HDMI | hdmi |
+| Hardware | hardware | USB | usb |
+| Hardware | hardware | Bluetooth | bluetooth |
+| Operative System | os | OS Name | os-name |
+| Operative System | os | Latest Version | latest-version |
+| Operative System | os | Lastes Release Date | latest-release-date |
+| Operative System | os | Release Notes | release-notes |
+| Operative System | os | Source-available | source-available |
+| Operative System | os | Open Source | open-source |
+| Operative System | os | License | license |
+| Operative System | os | Reproducible Builds | reproducible-builds |
+| Other Features | other-features | Tor | tor |
+| Platforms | platforms | Windows | windows |
+| Platforms | platforms | MacOS | macos |
+| Platforms | platforms | Linux | linux |
+| Bitcoin Apps | bitcoin-apps | Bitcoin Node | bitcoin-node |
+| Bitcoin Apps | bitcoin-apps | Lightning Node | lightning-node |
+| Bitcoin Apps | bitcoin-apps | Mempool Visualizer | mempool-visualizer |
+| Bitcoin Apps | bitcoin-apps | BTCPay Server | btcpay-server |
+| Bitcoin Apps | bitcoin-apps | Electrs | electrs |
+| Bitcoin Apps | bitcoin-apps | Samourai Server | samourai-server |
 
 ## Website
 

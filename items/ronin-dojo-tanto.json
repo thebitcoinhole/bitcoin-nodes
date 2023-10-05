@@ -1,48 +1,47 @@
 {
-  "id": "umbrel-home",
-  "name": "Umbrel Home",
+  "id": "ronin-dojo-tanto",
+  "name": "Ronin Dojo Tanto",
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$499",
+      "value": "$599",
       "flag": "positive"
     },
     "amazon": {
       "supported": false
     },
     "year": {
-      "value": "2023"
+      "value": "2022"
     }
   },
   "company": {
     "brand": {
-      "value": "Umbrel"
+      "value": "RoninDojo"
     },
     "headquarters": {
-      "value": "-"
+      "value": "USA"
     },
     "website": {
       "value": "Website",
-      "url": "https://umbrel.com/"
+      "url": "https://ronindojo.io/"
     },
     "blog": {
       "value": "Blog",
-      "url": "https://blog.getumbrel.com/"
+      "url": "https://blog.ronindojo.io/"
     },
     "twitter": {
-      "value": "@umbrel",
-      "url": "https://twitter.com/umbrel"
+      "value": "@RoninDojoNode",
+      "url": "https://twitter.com/RoninDojoNode"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@UmbrelYT",
-      "url": "https://www.youtube.com/@UmbrelYT"
+      "value": "-"
     },
     "github": {
-      "value": "getumbrel",
-      "url": "https://github.com/getumbrel"
+      "value": "ronindojo",
+      "url": "https://code.samourai.io/ronindojo"
     }
   },
   "communities": {
@@ -55,14 +54,14 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "btc-lightning": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "alt-coins": {
       "value": "NO",
@@ -75,13 +74,13 @@
   },
   "size-materials": {
     "warranty": {
-      "value": "1 year"
+      "value": "?"
     },
     "weight": {
-      "value": "?"
+      "value": "1100g / 38.8oz"
     },
     "dimensions": {
-      "value": "?"
+      "value": "142 x 120 x 40 mm"
     }
   },
   "hardware": {
@@ -89,13 +88,13 @@
       "value": "NO"
     },
     "cpu": {
-      "value": "Intel N5105 CPU · Quad-Core · 2.0-2.9GHz"
+      "value": "Hexa-Core Rockchip RK3399"
     },
     "ram": {
-      "value": "16GB"
+      "value": "4GB"
     },
     "storage": {
-      "value": "2TB SSD"
+      "value": "1TB SSD"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",
@@ -103,29 +102,29 @@
       "flag": "positive"
     },
     "wifi": {
-      "value": "YES",
+      "value": "802.11ac",
       "supported": true,
       "flag": "positive"
     },
     "hdmi": {
-      "value": "YES (hided)",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "usb": {
-      "value": "3x USB 3.0",
+      "value": "2x USB 2.0 / 1x USB 3.0",
       "supported": true,
       "flag": "positive"
     },
     "bluetooth": {
-      "value": "YES",
+      "value": "Bluetooth 5.0",
       "supported": true,
       "flag": "positive"
     }
   },
   "os": {
     "os-name": {
-      "value": "umbrelOS"
+      "value": "RoninOS"
     },
     "latest-version": {
       "value": "?"
@@ -139,7 +138,7 @@
       "links": [
         {
           "title": "Releases Notes",
-          "url": "https://github.com/getumbrel/umbrel/releases"
+          "url": "https://code.samourai.io/ronindojo/RoninOS/-/tags"
         }
       ]
     },
@@ -150,22 +149,25 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/getumbrel/umbrel"
+          "url": "https://code.samourai.io/ronindojo/RoninOS"
         }
       ]
     },
     "open-source": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "By embracing FOSS, the RoninDojo team contributes to the wider open-source ecosystem, driving the advancement of privacy and security in the Bitcoin space. Rest assured that your Bitcoin transactions are protected by software that upholds the highest standards of transparency, security, and user empowerment. Unlike other node products, the RoninDojo team firmly believes in the FOSS ethos that built the Bitcoin ecosystem we see today."
+      ]
     },
     "license": {
-      "value": "PolyForm Noncommercial License 1.0.0",
+      "value": "Affero GPLv3",
       "supported": false,
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/getumbrel/umbrel/blob/master/LICENSE.md"
+          "url": "https://code.samourai.io/ronindojo/RoninOS/-/blob/master/LICENSE.txt"
         }
       ]
     },
@@ -202,9 +204,9 @@
       "flag": "positive"
     },
     "lightning-node": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "mempool-visualizer": {
       "value": "YES",
@@ -212,9 +214,9 @@
       "flag": "positive"
     },
     "btcpay-server": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "electrs": {
       "value": "YES",

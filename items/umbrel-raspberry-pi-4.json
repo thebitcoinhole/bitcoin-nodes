@@ -94,7 +94,7 @@
       "value": "8GB"
     },
     "storage": {
-      "value": "1+ TB"
+      "value": "1+ TB SSD"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",
@@ -107,22 +107,25 @@
       "flag": "positive"
     },
     "hdmi": {
-      "value": "2 x micro-HDMI",
+      "value": "2x micro-HDMI",
       "supported": true,
       "flag": "positive"
     },
     "usb": {
-      "value": "2 x USB 3.0 / 2 x USB 2.0",
+      "value": "2x USB 2.0 / 2x USB 3.0",
       "supported": true,
       "flag": "positive"
     },
     "bluetooth": {
-      "value": "YES",
+      "value": "Bluetooth 5.0",
       "supported": true,
       "flag": "positive"
     }
   },
-  "firmware": {
+  "os": {
+    "os-name": {
+      "value": "umbrelOS"
+    },
     "latest-version": {
       "value": "?"
     },
@@ -170,7 +173,13 @@
       "supported": false
     }
   },
-  "other-features": {},
+  "other-features": {
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "platforms": {
     "windows": {
       "value": "NO",
@@ -199,7 +208,7 @@
       "supported": true,
       "flag": "positive"
     },
-    "mempool": {
+    "mempool-visualizer": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
