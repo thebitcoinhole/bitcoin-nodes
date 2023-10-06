@@ -1,47 +1,47 @@
 {
-  "id": "umbrel-home",
-  "name": "Umbrel Home",
-  "purchasable": true,
+  "id": "ronin-dojo-diy",
+  "name": "Ronin Dojo DIY",
+  "purchasable": false,
+  "buildable": true,
   "basic-information": {
     "price": {
-      "value": "$499"
+      "value": "$150"
     },
     "amazon": {
       "supported": false
     },
     "year": {
-      "value": "2023"
+      "value": "2022"
     }
   },
   "company": {
     "brand": {
-      "value": "Umbrel"
+      "value": "RoninDojo"
     },
     "headquarters": {
-      "value": "-"
+      "value": "USA"
     },
     "website": {
       "value": "Website",
-      "url": "https://umbrel.com/"
+      "url": "https://ronindojo.io/"
     },
     "blog": {
       "value": "Blog",
-      "url": "https://blog.getumbrel.com/"
+      "url": "https://blog.ronindojo.io/"
     },
     "twitter": {
-      "value": "@umbrel",
-      "url": "https://twitter.com/umbrel"
+      "value": "@RoninDojoNode",
+      "url": "https://twitter.com/RoninDojoNode"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@UmbrelYT",
-      "url": "https://www.youtube.com/@UmbrelYT"
+      "value": "-"
     },
     "github": {
-      "value": "getumbrel",
-      "url": "https://github.com/getumbrel"
+      "value": "ronindojo",
+      "url": "https://code.samourai.io/ronindojo"
     }
   },
   "communities": {
@@ -54,77 +54,70 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "NO",
-      "flag": "negative",
+      "value": "-",
       "supported": false
     },
     "btc-lightning": {
-      "value": "NO",
-      "flag": "negative",
+      "value": "-",
       "supported": false
     },
     "alt-coins": {
-      "value": "NO",
+      "value": "-",
       "supported": false
     },
     "credit-debit-card": {
-      "value": "YES",
-      "supported": true
+      "value": "-",
+      "supported": false
     }
   },
   "size-materials": {
     "warranty": {
-      "value": "1 year"
+      "value": "-"
     },
     "weight": {
-      "value": "?"
+      "value": "-"
     },
     "dimensions": {
-      "value": "?"
+      "value": "-"
     }
   },
   "hardware": {
     "diy": {
-      "value": "NO"
+      "value": "YES"
     },
     "cpu": {
-      "value": "Intel Celeron N5105"
+      "value": "-"
     },
     "ram": {
-      "value": "16GB"
+      "value": "-"
     },
     "storage": {
-      "value": "2TB SSD"
+      "value": "-"
     },
     "ethernet": {
-      "value": "Gigabit Ethernet",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": true
     },
     "wifi": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": true
     },
     "hdmi": {
-      "value": "YES (hided)",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": false
     },
     "usb": {
-      "value": "3x USB 3.0",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": true
     },
     "bluetooth": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": false
     }
   },
   "os": {
     "os-name": {
-      "value": "umbrelOS"
+      "value": "RoninOS"
     },
     "latest-version": {
       "value": "?"
@@ -138,7 +131,7 @@
       "links": [
         {
           "title": "Releases Notes",
-          "url": "https://github.com/getumbrel/umbrel/releases"
+          "url": "https://code.samourai.io/ronindojo/RoninOS/-/tags"
         }
       ]
     },
@@ -149,22 +142,25 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/getumbrel/umbrel"
+          "url": "https://code.samourai.io/ronindojo/RoninOS"
         }
       ]
     },
     "open-source": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "By embracing FOSS, the RoninDojo team contributes to the wider open-source ecosystem, driving the advancement of privacy and security in the Bitcoin space. Rest assured that your Bitcoin transactions are protected by software that upholds the highest standards of transparency, security, and user empowerment. Unlike other node products, the RoninDojo team firmly believes in the FOSS ethos that built the Bitcoin ecosystem we see today."
+      ]
     },
     "license": {
-      "value": "PolyForm Noncommercial License 1.0.0",
+      "value": "Affero GPLv3",
       "supported": false,
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/getumbrel/umbrel/blob/master/LICENSE.md"
+          "url": "https://code.samourai.io/ronindojo/RoninOS/-/blob/master/LICENSE.txt"
         }
       ]
     },
@@ -182,20 +178,24 @@
   },
   "platforms": {
     "windows": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "macos": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "linux": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "raspberry-pi-4": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "bitcoin-apps": {
@@ -205,9 +205,9 @@
       "flag": "positive"
     },
     "lightning-node": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "mempool-visualizer": {
       "value": "YES",
@@ -215,9 +215,9 @@
       "flag": "positive"
     },
     "btcpay-server": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "electrs": {
       "value": "YES",
@@ -230,9 +230,9 @@
       "flag": "positive"
     },
     "specter-desktop": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
 }

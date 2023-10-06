@@ -233,6 +233,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   }
 }
