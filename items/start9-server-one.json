@@ -197,6 +197,10 @@
     "linux": {
       "value": "-",
       "supported": false
+    },
+    "raspberry-pi-4": {
+      "value": "-",
+      "supported": false
     }
   },
   "bitcoin-apps": {

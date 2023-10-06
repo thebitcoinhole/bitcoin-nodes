@@ -1,6 +1,6 @@
 {
-  "id": "umbrel-umbrel-raspberry-pi-4",
-  "name": "Umbrel Raspberry Pi 4",
+  "id": "start9-diy",
+  "name": "Start9 DIY",
   "purchasable": false,
   "buildable": true,
   "basic-information": {
@@ -11,43 +11,44 @@
       "supported": false
     },
     "year": {
-      "value": "2020"
+      "value": "2023"
     }
   },
   "company": {
     "brand": {
-      "value": "Umbrel"
+      "value": "Start9"
     },
     "headquarters": {
-      "value": "-"
+      "value": "USA"
     },
     "website": {
       "value": "Website",
-      "url": "https://umbrel.com/"
+      "url": "https://start9.com/"
     },
     "blog": {
       "value": "Blog",
-      "url": "https://blog.getumbrel.com/"
+      "url": "https://blog.start9.com/"
     },
     "twitter": {
-      "value": "@umbrel",
-      "url": "https://twitter.com/umbrel"
+      "value": "@start9labs",
+      "url": "https://twitter.com/start9labs"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@UmbrelYT",
-      "url": "https://www.youtube.com/@UmbrelYT"
+      "value": "@Start9",
+      "url": "https://www.youtube.com/@Start9"
     },
     "github": {
-      "value": "getumbrel",
-      "url": "https://github.com/getumbrel"
+      "value": "Start9Labs",
+      "url": "https://github.com/Start9Labs"
     }
   },
   "communities": {
     "telegram": {
-      "value": "-"
+      "value": "Start9 Community",
+      "url": "https://t.me/start9_labs"
     },
     "reddit": {
       "value": "-"
@@ -76,10 +77,10 @@
       "value": "-"
     },
     "weight": {
-      "value": "46g / 1.6oz"
+      "value": "-"
     },
     "dimensions": {
-      "value": "8.8 x 5.8 x 1.95 cm"
+      "value": "-"
     }
   },
   "hardware": {
@@ -87,43 +88,42 @@
       "value": "YES"
     },
     "cpu": {
-      "value": "Quad core Cortex-A72"
+      "value": "-"
     },
     "ram": {
-      "value": "8GB"
+      "value": "-"
     },
     "storage": {
-      "value": "1+ TB SSD"
+      "value": "-"
     },
     "ethernet": {
-      "value": "Gigabit Ethernet",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": true
     },
     "wifi": {
-      "value": "802.11ac",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": true
     },
     "hdmi": {
-      "value": "2x micro-HDMI",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": false
     },
     "usb": {
-      "value": "2x USB 2.0 / 2x USB 3.0",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": true
     },
     "bluetooth": {
-      "value": "Bluetooth 5.0",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": false
     }
   },
   "os": {
     "os-name": {
-      "value": "umbrelOS"
+      "value": "StartOS",
+      "texts": [
+        "StartOS is a novel Linux distro with a graphical interface purpose built for self-hosting. It facilitates the entire process of discovering, downloading, installing, configuring, networking, monitoring, backing up, and generally managing almost any variety of self-hosted, open-source services with unprecedented ease.",
+        "For developers and system administrators, StartOS provides huge time savings over traditional Linux workflows. For the rest of us, and for the first time since the arrival of the Internet, it makes digital autonomy possible."
+      ]
     },
     "latest-version": {
       "value": "?"
@@ -137,7 +137,7 @@
       "links": [
         {
           "title": "Releases Notes",
-          "url": "https://github.com/getumbrel/umbrel/releases"
+          "url": "https://github.com/Start9Labs/start-os/releases"
         }
       ]
     },
@@ -148,7 +148,7 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/getumbrel/umbrel"
+          "url": "https://github.com/Start9Labs/start-os"
         }
       ]
     },
@@ -158,12 +158,12 @@
       "flag": "negative"
     },
     "license": {
-      "value": "PolyForm Noncommercial License 1.0.0",
+      "value": "Start9 Non-Commercial License",
       "supported": false,
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/getumbrel/umbrel/blob/master/LICENSE.md"
+          "url": "https://github.com/Start9Labs/start-os/blob/master/LICENSE.md"
         }
       ]
     },
@@ -181,19 +181,36 @@
   },
   "platforms": {
     "windows": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "macos": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "linux": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Flashing (x86_64)",
+          "url": "https://docs.start9.com/latest/guides/flashing/flashing-x86"
+        }
+      ]
+    },
+    "raspberry-pi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Flashing (Raspberry Pi)",
+          "url": "https://docs.start9.com/latest/guides/flashing/flashing-pi"
+        }
+      ]
     }
   },
   "bitcoin-apps": {
@@ -223,9 +240,9 @@
       "flag": "positive"
     },
     "samourai-server": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
 }
