@@ -4,8 +4,7 @@
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$499",
-      "flag": "positive"
+      "value": "$499"
     },
     "amazon": {
       "supported": false
@@ -89,7 +88,7 @@
       "value": "NO"
     },
     "cpu": {
-      "value": "Intel N5105 CPU · Quad-Core · 2.0-2.9GHz"
+      "value": "Intel Celeron N5105"
     },
     "ram": {
       "value": "16GB"

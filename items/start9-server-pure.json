@@ -1,0 +1,234 @@
+{
+    "id": "start9-server-pure",
+    "name": "Start9 Server Pure",
+    "purchasable": true,
+    "basic-information": {
+        "price": {
+            "value": "$1429"
+        },
+        "amazon": {
+            "supported": false
+        },
+        "year": {
+            "value": "2023"
+        }
+    },
+    "company": {
+        "brand": {
+            "value": "Start9"
+        },
+        "headquarters": {
+            "value": "USA"
+        },
+        "website": {
+            "value": "Website",
+            "url": "https://start9.com/"
+        },
+        "blog": {
+            "value": "Blog",
+            "url": "https://blog.start9.com/"
+        },
+        "twitter": {
+            "value": "@start9labs",
+            "url": "https://twitter.com/start9labs"
+        },
+        "nostr": {
+            "value": "-"
+        },
+        "youtube": {
+            "value": "@Start9",
+            "url": "https://www.youtube.com/@Start9"
+        },
+        "github": {
+            "value": "Start9Labs",
+            "url": "https://github.com/Start9Labs"
+        }
+    },
+    "communities": {
+        "telegram": {
+            "value": "Start9 Community",
+            "url": "https://t.me/start9_labs"
+        },
+        "reddit": {
+            "value": "-"
+        }
+    },
+    "payment-methods": {
+        "btc-on-chain": {
+            "value": "YES",
+            "flag": "positive",
+            "supported": true
+        },
+        "btc-lightning": {
+            "value": "YES",
+            "flag": "positive",
+            "supported": true
+        },
+        "alt-coins": {
+            "value": "NO",
+            "supported": false
+        },
+        "credit-debit-card": {
+            "value": "YES",
+            "supported": true
+        }
+    },
+    "size-materials": {
+        "warranty": {
+            "value": "1 year"
+        },
+        "weight": {
+            "value": "1000g / 35.27ox"
+        },
+        "dimensions": {
+            "value": "12.8 x 12.8 x 3.8 cm"
+        }
+    },
+    "hardware": {
+        "diy": {
+            "value": "NO"
+        },
+        "cpu": {
+            "value": "Intel Core i7"
+        },
+        "ram": {
+            "value": "32 GB"
+        },
+        "storage": {
+            "value": "2+ TB"
+        },
+        "ethernet": {
+            "value": "Gigabit Ethernet",
+            "supported": true,
+            "flag": "positive"
+        },
+        "wifi": {
+            "value": "Wi-Fi 6 AX200",
+            "supported": true,
+            "flag": "positive"
+        },
+        "hdmi": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "usb": {
+            "value": "2x USB 2.0 / 4x USB 3.0 / 1x USB 3.1",
+            "supported": true,
+            "flag": "positive"
+        },
+        "bluetooth": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        }
+    },
+    "os": {
+        "os-name": {
+            "value": "StartOS",
+            "texts": [
+                "StartOS is a novel Linux distro with a graphical interface purpose built for self-hosting. It facilitates the entire process of discovering, downloading, installing, configuring, networking, monitoring, backing up, and generally managing almost any variety of self-hosted, open-source services with unprecedented ease.",
+                "For developers and system administrators, StartOS provides huge time savings over traditional Linux workflows. For the rest of us, and for the first time since the arrival of the Internet, it makes digital autonomy possible."
+            ]
+        },
+        "latest-version": {
+            "value": "?"
+        },
+        "latest-release-date": {
+            "value": "?"
+        },
+        "release-notes": {
+            "value": "YES",
+            "flag": "positive",
+            "links": [
+              {
+                "title": "Releases Notes",
+                "url": "https://github.com/Start9Labs/start-os/releases"
+              }
+            ]
+        },
+        "source-available": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive",
+            "links": [
+                {
+                    "title": "Source Code",
+                    "url": "https://github.com/Start9Labs/start-os"
+                }
+            ]
+        },
+        "open-source": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        },
+        "license": {
+            "value": "Start9 Non-Commercial License",
+            "supported": false,
+            "links": [
+                {
+                    "title": "License",
+                    "url": "https://github.com/Start9Labs/start-os/blob/master/LICENSE.md"
+                }
+            ]
+        },
+        "reproducible-builds": {
+            "value": "?",
+            "supported": false
+        }
+    },
+    "other-features": {
+        "tor": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        }
+    },
+    "platforms": {
+        "windows": {
+            "value": "-",
+            "supported": false
+        },
+        "macos": {
+            "value": "-",
+            "supported": false
+        },
+        "linux": {
+            "value": "-",
+            "supported": false
+        }
+    },
+    "bitcoin-apps": {
+        "bitcoin-node": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "lightning-node": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "mempool-visualizer": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "btcpay-server": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "electrs": {
+            "value": "YES",
+            "supported": true,
+            "flag": "positive"
+        },
+        "samourai-server": {
+            "value": "NO",
+            "supported": false,
+            "flag": "negative"
+        }
+    }
+}

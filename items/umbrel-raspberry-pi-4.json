@@ -5,8 +5,7 @@
   "buildable": true,
   "basic-information": {
     "price": {
-      "value": "$150",
-      "flag": "positive"
+      "value": "$150"
     },
     "amazon": {
       "supported": false
@@ -80,7 +79,7 @@
       "value": "46g / 1.6oz"
     },
     "dimensions": {
-      "value": "88 x 58 x 19.5mm"
+      "value": "8.8 x 5.8 x 1.95 cm"
     }
   },
   "hardware": {

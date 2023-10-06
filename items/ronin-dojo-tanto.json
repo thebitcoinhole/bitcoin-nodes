@@ -4,8 +4,7 @@
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$599",
-      "flag": "positive"
+      "value": "$599"
     },
     "amazon": {
       "supported": false
@@ -80,7 +79,7 @@
       "value": "1100g / 38.8oz"
     },
     "dimensions": {
-      "value": "142 x 120 x 40 mm"
+      "value": "14.2 x 12 x 4 cm"
     }
   },
   "hardware": {
