@@ -244,6 +244,16 @@
     }
   },
   "other-features": {
+    "official-marketplace": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "thirdparty-marketplace": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "backup-restore": {
       "value": "YES",
       "supported": true,
