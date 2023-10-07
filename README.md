@@ -1,4 +1,4 @@
-# The Bitcoin Hole - Nodes
+# The Bitcoin Hole - Bitcoin Nodes
 
 ## Introduction
 
@@ -110,16 +110,23 @@ All the features supported:
 | Operative System | os | Open Source | open-source |
 | Operative System | os | License | license |
 | Operative System | os | Reproducible Builds | reproducible-builds |
-| Other Features | other-features | Tor | tor |
 | Platforms | platforms | Windows | windows |
 | Platforms | platforms | MacOS | macos |
 | Platforms | platforms | Linux | linux |
+| Platforms | platforms | Raspberry Pi 4 | raspberry-pi-4 |
 | Bitcoin Apps | bitcoin-apps | Bitcoin Node | bitcoin-node |
 | Bitcoin Apps | bitcoin-apps | Lightning Node | lightning-node |
 | Bitcoin Apps | bitcoin-apps | Mempool Visualizer | mempool-visualizer |
 | Bitcoin Apps | bitcoin-apps | BTCPay Server | btcpay-server |
 | Bitcoin Apps | bitcoin-apps | Electrs | electrs |
 | Bitcoin Apps | bitcoin-apps | Samourai Server | samourai-server |
+| Bitcoin Apps | bitcoin-apps | Specter Desktop | specter-desktop |
+| Other Features | other-features | Official Marketplace | official-marketplace |
+| Other Features | other-features | Thirdparty Marketplace | thirdparty-marketplace |
+| Other Features | other-features | Backup / Restore | backup-restore |
+| Other Features | other-features | Health Checks | health-checks |
+| Other Features | other-features | SSL | ssl |
+| Other Features | other-features | Tor | tor |
 
 ## Website
 

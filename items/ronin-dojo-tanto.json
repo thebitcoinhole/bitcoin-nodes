@@ -107,8 +107,7 @@
     },
     "hdmi": {
       "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "usb": {
       "value": "2x USB 2.0 / 1x USB 3.0",
@@ -117,8 +116,7 @@
     },
     "bluetooth": {
       "value": "Bluetooth 5.0",
-      "supported": true,
-      "flag": "positive"
+      "supported": true
     }
   },
   "os": {
@@ -251,6 +249,15 @@
           "url": "https://wiki.ronindojo.io/en/troubleshooting/data"
         }
       ]
+    },
+    "health-checks": {
+      "value": "?",
+      "supported": false
+    },
+    "ssl": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "tor": {
       "value": "YES",

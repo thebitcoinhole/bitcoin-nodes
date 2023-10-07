@@ -250,6 +250,15 @@
         }
       ]
     },
+    "health-checks": {
+      "value": "?",
+      "supported": false
+    },
+    "ssl": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "tor": {
       "value": "YES",
       "supported": true,

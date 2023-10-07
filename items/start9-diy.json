@@ -259,8 +259,24 @@
       "supported": true,
       "flag": "positive",
       "texts": [
-        "With Embassy, creating a complete encrypted backup of your entire system is a matter of clicking “Create Backup” in the GUI and selecting a target destination. The destination can either be a physical hard drive or a shared network folder, basically any device that is connected to the same Local Area Network as your Embassy. Backups are encrypted using your Embassy master password.",
+        "Creating a complete encrypted backup of your entire system is a matter of clicking “Create Backup” in the GUI and selecting a target destination. The destination can either be a physical hard drive or a shared network folder, basically any device that is connected to the same Local Area Network as your StartOS. Backups are encrypted using your StartOS master password.",
         "You can restore from backup directly from the GUI by clicking “Restore from Backup”, selecting the drive where the backup exists, and then selecting the services you want to restore."
+      ]
+    },
+    "health-checks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Package developers define what constitutes health for a given service and write scripts to test for it. StartOS performs these health checks on a continuous basis, presenting results to the user inside the GUI. Users can tell at a glance if Bitcoin is running smoothly, or if LND is satisfied with the state of Bitcoin's health. In the event that a health check fails, StartOS can issue a notification, informing the user of the failure along with a report for how the issue was resolved or whether resolution requires further action."
+      ]
+    },
+    "ssl": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "StartOS acts as its own Certificate Authority (CA), such that it can use an encrypted https connection for communicating over the LAN. This requires a bit of setup, namely downloading your StartOS's SSL CA certificate and trusting it in both your device and your device's browser. It takes a few minutes to set up, but once complete, you can be sure that no one can sniff your traffic, even if they have access to your LAN."
       ]
     },
     "tor": {
