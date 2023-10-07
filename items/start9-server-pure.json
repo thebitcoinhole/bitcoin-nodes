@@ -178,13 +178,6 @@
       "supported": false
     }
   },
-  "other-features": {
-    "tor": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    }
-  },
   "platforms": {
     "windows": {
       "value": "-",
@@ -235,6 +228,22 @@
       "flag": "negative"
     },
     "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "other-features": {
+    "backup-restore": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "With Embassy, creating a complete encrypted backup of your entire system is a matter of clicking “Create Backup” in the GUI and selecting a target destination. The destination can either be a physical hard drive or a shared network folder, basically any device that is connected to the same Local Area Network as your Embassy. Backups are encrypted using your Embassy master password.",
+        "You can restore from backup directly from the GUI by clicking “Restore from Backup”, selecting the drive where the backup exists, and then selecting the services you want to restore."
+      ]
+    },
+    "tor": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

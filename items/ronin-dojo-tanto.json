@@ -175,13 +175,6 @@
       "supported": false
     }
   },
-  "other-features": {
-    "tor": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    }
-  },
   "platforms": {
     "windows": {
       "value": "-",
@@ -235,6 +228,24 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    }
+  },
+  "other-features": {
+    "backup-restore": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Using RoninDojo with a Secondary Backup Drive",
+          "url": "https://wiki.ronindojo.io/en/troubleshooting/data"
+        }
+      ]
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   }
 }
