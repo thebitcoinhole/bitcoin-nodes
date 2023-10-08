@@ -5,7 +5,10 @@
   "buildable": true,
   "basic-information": {
     "price": {
-      "value": "$150"
+      "value": "$150",
+      "texts": [
+        "Estmated price to build a Raspberry Pi 4"
+      ]
     },
     "amazon": {
       "supported": false
@@ -73,7 +76,8 @@
   },
   "size-materials": {
     "warranty": {
-      "value": "-"
+      "value": "-",
+      "supported": false
     },
     "weight": {
       "value": "-"
@@ -182,6 +186,16 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "pc-disk-image": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "virtual-machine": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "raspberry-pi-4": {
       "value": "YES",

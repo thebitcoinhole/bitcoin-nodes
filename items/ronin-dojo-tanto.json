@@ -73,7 +73,8 @@
   },
   "size-materials": {
     "warranty": {
-      "value": "?"
+      "value": "?",
+      "supported": false
     },
     "weight": {
       "value": "1100g / 38.8oz"
@@ -183,6 +184,14 @@
       "supported": false
     },
     "linux": {
+      "value": "-",
+      "supported": false
+    },
+    "pc-disk-image": {
+      "value": "-",
+      "supported": false
+    },
+    "virtual-machine": {
       "value": "-",
       "supported": false
     },

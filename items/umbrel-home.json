@@ -74,7 +74,9 @@
   },
   "size-materials": {
     "warranty": {
-      "value": "1 year"
+      "value": "1 year",
+      "flag": "positive",
+      "supported": true
     },
     "weight": {
       "value": "?"
@@ -181,6 +183,14 @@
       "supported": false
     },
     "linux": {
+      "value": "-",
+      "supported": false
+    },
+    "pc-disk-image": {
+      "value": "-",
+      "supported": false
+    },
+    "virtual-machine": {
       "value": "-",
       "supported": false
     },
