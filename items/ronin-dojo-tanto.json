@@ -85,16 +85,17 @@
   },
   "hardware": {
     "diy": {
-      "value": "NO"
+      "value": "NO",
+      "supported": false
     },
     "cpu": {
       "value": "Hexa-Core Rockchip RK3399"
     },
     "ram": {
-      "value": "4GB"
+      "value": "4 GB"
     },
     "storage": {
-      "value": "1TB SSD"
+      "value": "1 TB"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",

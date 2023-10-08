@@ -87,16 +87,17 @@
   },
   "hardware": {
     "diy": {
-      "value": "NO"
+      "value": "NO",
+      "supported": false
     },
     "cpu": {
       "value": "Quad core Cortex-A72"
     },
     "ram": {
-      "value": "4GB/8GB"
+      "value": "4 GB / 8 GB"
     },
     "storage": {
-      "value": "1+ TB SSD"
+      "value": "1+ TB"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",

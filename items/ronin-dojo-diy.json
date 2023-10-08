@@ -87,7 +87,8 @@
   },
   "hardware": {
     "diy": {
-      "value": "YES"
+      "value": "YES",
+      "supported": true
     },
     "cpu": {
       "value": "-"

@@ -87,16 +87,17 @@
   },
   "hardware": {
     "diy": {
-      "value": "NO"
+      "value": "NO",
+      "supported": false
     },
     "cpu": {
       "value": "4 Core Intel"
     },
     "ram": {
-      "value": "8GB"
+      "value": "8 GB"
     },
     "storage": {
-      "value": "1+ TB SSD"
+      "value": "1+ TB"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",

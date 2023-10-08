@@ -87,16 +87,17 @@
   },
   "hardware": {
     "diy": {
-      "value": "NO"
+      "value": "NO",
+      "supported": false
     },
     "cpu": {
       "value": "Intel Celeron N5105"
     },
     "ram": {
-      "value": "16GB"
+      "value": "16 GB"
     },
     "storage": {
-      "value": "2TB SSD"
+      "value": "2 TB"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",
