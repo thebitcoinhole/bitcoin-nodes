@@ -200,14 +200,14 @@
       ]
     },
     "pc-disk-image": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "virtual-machine": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "raspberry-pi-4": {
       "value": "YES",

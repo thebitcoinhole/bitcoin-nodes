@@ -49,7 +49,8 @@
   },
   "communities": {
     "telegram": {
-      "value": "-"
+      "value": "RoninDojo",
+      "url": "https://t.me/RoninDojoNode"
     },
     "reddit": {
       "value": "-"
@@ -88,7 +89,13 @@
   "hardware": {
     "diy": {
       "value": "YES",
-      "supported": true
+      "supported": true,
+      "links": [
+        {
+          "title": "Community Custom Builds",
+          "url": "https://wiki.ronindojo.io/en/extras/community-custom-builds"
+        }
+      ]
     },
     "cpu": {
       "value": "-"
@@ -201,9 +208,15 @@
       "flag": "negative"
     },
     "raspberry-pi-4": {
-      "value": "YES",
+      "value": "YES (Not Official support)",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Raspberry Pi: Upgrading to RoninOS v2.0.0",
+          "url": "https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry"
+        }
+      ]
     }
   },
   "bitcoin-apps": {

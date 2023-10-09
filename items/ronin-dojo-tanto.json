@@ -45,7 +45,8 @@
   },
   "communities": {
     "telegram": {
-      "value": "-"
+      "value": "RoninDojo",
+      "url": "https://t.me/RoninDojoNode"
     },
     "reddit": {
       "value": "-"

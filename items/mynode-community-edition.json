@@ -76,15 +76,14 @@
   },
   "size-materials": {
     "warranty": {
-      "value": "NO",
-      "flag": "negative",
+      "value": "-",
       "supported": false
     },
     "weight": {
-      "value": "?"
+      "value": "-"
     },
     "dimensions": {
-      "value": "?"
+      "value": "-"
     }
   },
   "hardware": {
