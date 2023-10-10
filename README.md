@@ -2,6 +2,7 @@
 
 ## Introduction
 
+For bitcoin to function reliably and securely, it relies on the voluntary participation of thousands of individuals worldwide. Nodes, which make up the bitcoin network and verify transactions and blocks, are crucial to this process. There are many reasons to consider running your own bitcoin node, including personal benefits and the benefits to the security and resilience of the bitcoin ecosystem.
 
 ## Collaboration
 
@@ -113,6 +114,8 @@ All the features supported:
 | Platforms | platforms | Windows | windows |
 | Platforms | platforms | MacOS | macos |
 | Platforms | platforms | Linux | linux |
+| Platforms | platforms | PC Disk Image | pc-disk-image |
+| Platforms | platforms | Virtual Machine | virtual-machine |
 | Platforms | platforms | Raspberry Pi 4 | raspberry-pi-4 |
 | Bitcoin Apps | bitcoin-apps | Bitcoin Node | bitcoin-node |
 | Bitcoin Apps | bitcoin-apps | Lightning Node | lightning-node |
