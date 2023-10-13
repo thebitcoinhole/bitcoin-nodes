@@ -1,10 +1,14 @@
 {
-  "id": "mynode-model-one",
-  "name": "Model One",
-  "purchasable": true,
+  "id": "minibolt",
+  "name": "MiniBolt",
+  "purchasable": false,
+  "buildable": true,
   "basic-information": {
     "price": {
-      "value": "$399"
+      "value": "$150",
+      "texts": [
+        "Estmated price to build a Raspberry Pi 4"
+      ]
     },
     "amazon": {
       "supported": false
@@ -15,124 +19,111 @@
   },
   "company": {
     "brand": {
-      "value": "MyNode"
+      "value": "MiniBolt"
     },
     "headquarters": {
-      "value": "USA"
+      "value": "-"
     },
     "website": {
       "value": "Website",
-      "url": "https://mynodebtc.com/"
+      "url": "https://v2.minibolt.info/"
     },
     "blog": {
       "value": "-"
     },
     "twitter": {
-      "value": "@mynodebtc",
-      "url": "https://twitter.com/mynodebtc"
-    },
-    "nostr": {
       "value": "-"
     },
+    "nostr": {
+      "value": "@MiniBolt",
+      "url": "https://snort.social/p/aa64f2ead929ce8417f85bde7d22ebde13cc01ceb4e00145572437eb1ad46249"
+    },
     "youtube": {
-      "value": "@mynode",
-      "url": "https://www.youtube.com/@mynode"
+      "value": "-"
     },
     "github": {
-      "value": "mynodebtc",
-      "url": "https://github.com/mynodebtc"
+      "value": "minibolt-guide",
+      "url": "https://github.com/minibolt-guide"
     }
   },
   "communities": {
     "telegram": {
-      "value": "myNode",
-      "url": "https://t.me/mynode_btc"
+      "value": "MiniBolt",
+      "url": "https://t.me/minibolt"
     },
     "reddit": {
-      "value": "-"
+      "value": "MiniBolt",
+      "url": "https://www.reddit.com/r/minibolt"
     }
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
+      "value": "-",
+      "supported": false
     },
     "btc-lightning": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
+      "value": "-",
+      "supported": false
     },
     "alt-coins": {
-      "value": "NO",
+      "value": "-",
       "supported": false
     },
     "credit-debit-card": {
-      "value": "YES",
-      "supported": true
+      "value": "-",
+      "supported": false
     }
   },
   "size-materials": {
     "warranty": {
-      "value": "NO",
-      "flag": "negative",
+      "value": "-",
       "supported": false
     },
     "weight": {
-      "value": "?"
+      "value": "-"
     },
     "dimensions": {
-      "value": "?"
+      "value": "-"
     }
   },
   "hardware": {
     "diy": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "cpu": {
-      "value": "Quad core Cortex-A72"
+      "value": "-"
     },
     "ram": {
-      "value": "4 GB / 8 GB"
+      "value": "-"
     },
     "storage": {
-      "value": "1+ TB"
+      "value": "-"
     },
     "ethernet": {
-      "value": "Gigabit Ethernet",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": true
     },
     "wifi": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Connect WiFi",
-          "url": "https://mynodebtc.github.io/device/connect-wifi.html"
-        }
-      ]
+      "value": "-",
+      "supported": true
     },
     "hdmi": {
-      "value": "2x micro-HDMI",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": false
     },
     "usb": {
-      "value": "2x USB 2.0 / 2x USB 3.0",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": true
     },
     "bluetooth": {
-      "value": "NO",
+      "value": "-",
       "supported": false
     }
   },
   "os": {
     "os-name": {
-      "value": "MyNode"
+      "value": "MiniBolt"
     },
     "latest-version": {
       "value": "?"
@@ -146,7 +137,7 @@
       "links": [
         {
           "title": "Releases Notes",
-          "url": "https://github.com/mynodebtc/mynode/blob/master/CHANGELOG"
+          "url": "https://github.com/minibolt-guide/minibolt/releases"
         }
       ]
     },
@@ -157,22 +148,22 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/mynodebtc/mynode"
+          "url": "https://github.com/minibolt-guide/minibolt"
         }
       ]
     },
     "open-source": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "license": {
-      "value": "Creative Commons NonCommercial",
+      "value": "MIT",
       "supported": false,
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/mynodebtc/mynode/blob/master/LICENSE.md"
+          "url": "https://github.com/minibolt-guide/minibolt/blob/main/LICENSE"
         }
       ]
     },
@@ -183,28 +174,34 @@
   },
   "platforms": {
     "windows": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "macos": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "linux": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "pc-disk-image": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "virtual-machine": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "raspberry-pi-4": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "bitcoin-apps": {
@@ -226,29 +223,41 @@
     "btcpay-server": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BTCPay Server",
+          "url": "https://v2.minibolt.info/bonus-guides/bitcoin/btcpay-server"
+        }
+      ]
     },
     "electrs": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Electrs",
+          "url": "https://v2.minibolt.info/bonus-guides/bitcoin/electrs"
+        }
+      ]
     },
     "samourai-server": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "specter-desktop": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "other-features": {
     "official-marketplace": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "thirdparty-marketplace": {
       "value": "NO",
@@ -266,9 +275,9 @@
       "flag": "negative"
     },
     "ssl": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "tor": {
       "value": "YES",
