@@ -206,10 +206,15 @@
       "supported": true,
       "flag": "positive"
     },
-    "mempool-visualizer": {
+    "block-explorer": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "mempool-visualizer": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "btcpay-server": {
       "value": "YES",

@@ -230,6 +230,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "mempool-visualizer": {
       "value": "YES",
       "supported": true,
