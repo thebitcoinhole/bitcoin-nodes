@@ -225,6 +225,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "coinjoin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "btcpay-server": {
       "value": "YES",
       "supported": true,

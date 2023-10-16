@@ -222,6 +222,14 @@
       "supported": true,
       "flag": "positive"
     },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Whirlpool + JoinMarket"
+      ]
+    },
     "btcpay-server": {
       "value": "YES",
       "supported": true,

@@ -242,6 +242,14 @@
       "supported": true,
       "flag": "positive"
     },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "JoinMarket"
+      ]
+    },
     "btcpay-server": {
       "value": "YES",
       "supported": true,
