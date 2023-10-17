@@ -202,6 +202,21 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "rock-64": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "rock-pro-64": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "rockpi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "bitcoin-apps": {
@@ -238,7 +253,7 @@
       "supported": true,
       "flag": "positive"
     },
-    "electrs": {
+    "electrum-server": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

@@ -202,6 +202,21 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "rock-64": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rock-pro-64": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rockpi-4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "bitcoin-apps": {
@@ -241,13 +256,13 @@
         }
       ]
     },
-    "electrs": {
+    "electrum-server": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
       "links": [
         {
-          "title": "Electrs",
+          "title": "electrum-server",
           "url": "https://v2.minibolt.info/bonus-guides/bitcoin/electrs"
         }
       ]

@@ -174,16 +174,19 @@
   },
   "platforms": {
     "windows": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "macos": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "linux": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "pc-disk-image": {
       "value": "YES",
@@ -199,6 +202,21 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "rock-64": {
+      "value": "YES",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rock-pro-64": {
+      "value": "YES",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rockpi-4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "bitcoin-apps": {
@@ -235,7 +253,7 @@
       "supported": true,
       "flag": "positive"
     },
-    "electrs": {
+    "electrum-server": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

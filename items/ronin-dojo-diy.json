@@ -217,6 +217,21 @@
           "url": "https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry"
         }
       ]
+    },
+    "rock-64": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "rock-pro-64": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "rockpi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "bitcoin-apps": {
@@ -253,7 +268,7 @@
       "supported": false,
       "flag": "negative"
     },
-    "electrs": {
+    "electrum-server": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

@@ -219,6 +219,21 @@
           "url": "https://docs.start9.com/latest/guides/flashing/flashing-pi"
         }
       ]
+    },
+    "rock-64": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rock-pro-64": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rockpi-4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "bitcoin-apps": {
@@ -255,7 +270,7 @@
       "supported": true,
       "flag": "positive"
     },
-    "electrs": {
+    "electrum-server": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

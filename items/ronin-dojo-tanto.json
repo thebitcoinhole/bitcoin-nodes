@@ -200,6 +200,18 @@
     "raspberry-pi-4": {
       "value": "-",
       "supported": false
+    },
+    "rock-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rock-pro-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rockpi-4": {
+      "value": "-",
+      "supported": false
     }
   },
   "bitcoin-apps": {
@@ -236,7 +248,7 @@
       "supported": false,
       "flag": "negative"
     },
-    "electrs": {
+    "electrum-server": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
