@@ -88,8 +88,8 @@
     }
   },
   "hardware": {
-    "diy": {
-      "value": "YES",
+    "form-factor": {
+      "value": "DIY",
       "supported": true
     },
     "cpu": {
@@ -122,8 +122,8 @@
       "supported": false
     }
   },
-  "os": {
-    "os-name": {
+  "firmware": {
+    "firmware-name": {
       "value": "StartOS",
       "texts": [
         "StartOS is a novel Linux distro with a graphical interface purpose built for self-hosting. It facilitates the entire process of discovering, downloading, installing, configuring, networking, monitoring, backing up, and generally managing almost any variety of self-hosted, open-source services with unprecedented ease.",

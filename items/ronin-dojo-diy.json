@@ -87,8 +87,8 @@
     }
   },
   "hardware": {
-    "diy": {
-      "value": "YES",
+    "form-factor": {
+      "value": "DIY",
       "supported": true,
       "links": [
         {
@@ -127,8 +127,8 @@
       "supported": false
     }
   },
-  "os": {
-    "os-name": {
+  "firmware": {
+    "firmware-name": {
       "value": "RoninOS"
     },
     "latest-version": {

@@ -86,8 +86,8 @@
     }
   },
   "hardware": {
-    "diy": {
-      "value": "NO",
+    "form-factor": {
+      "value": "Box",
       "supported": false
     },
     "cpu": {
@@ -130,8 +130,8 @@
       "supported": false
     }
   },
-  "os": {
-    "os-name": {
+  "firmware": {
+    "firmware-name": {
       "value": "MyNode"
     },
     "latest-version": {

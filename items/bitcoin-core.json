@@ -83,8 +83,8 @@
     }
   },
   "hardware": {
-    "diy": {
-      "value": "-",
+    "form-factor": {
+      "value": "Software",
       "supported": false
     },
     "cpu": {
@@ -117,8 +117,8 @@
       "supported": false
     }
   },
-  "os": {
-    "os-name": {
+  "firmware": {
+    "firmware-name": {
       "value": "Bitcoin Core"
     },
     "latest-version": {

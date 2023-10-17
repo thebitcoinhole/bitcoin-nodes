@@ -86,8 +86,8 @@
     }
   },
   "hardware": {
-    "diy": {
-      "value": "NO",
+    "form-factor": {
+      "value": "Box",
       "supported": false
     },
     "cpu": {
@@ -123,8 +123,8 @@
       "supported": true
     }
   },
-  "os": {
-    "os-name": {
+  "firmware": {
+    "firmware-name": {
       "value": "umbrelOS"
     },
     "latest-version": {

@@ -86,8 +86,8 @@
     }
   },
   "hardware": {
-    "diy": {
-      "value": "YES",
+    "form-factor": {
+      "value": "DIY",
       "supported": true
     },
     "cpu": {
@@ -120,8 +120,8 @@
       "supported": false
     }
   },
-  "os": {
-    "os-name": {
+  "firmware": {
+    "firmware-name": {
       "value": "Citadel"
     },
     "latest-version": {

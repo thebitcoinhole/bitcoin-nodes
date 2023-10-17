@@ -94,7 +94,7 @@ All the features supported:
 | Size & Materials | size-materials | Warranty | warranty |
 | Size & Materials | size-materials | Weight | weight |
 | Size & Materials | size-materials | Dimensions | dimensions |
-| Hardware | hardware | DIY | diy |
+| Hardware | hardware | Form Factor | form-factor |
 | Hardware | hardware | CPU | cpu |
 | Hardware | hardware | RAM | ram |
 | Hardware | hardware | Storage | storage |
@@ -103,25 +103,30 @@ All the features supported:
 | Hardware | hardware | HDMI | hdmi |
 | Hardware | hardware | USB | usb |
 | Hardware | hardware | Bluetooth | bluetooth |
-| Operative System | os | OS Name | os-name |
-| Operative System | os | Latest Version | latest-version |
-| Operative System | os | Lastes Release Date | latest-release-date |
-| Operative System | os | Release Notes | release-notes |
-| Operative System | os | Source-available | source-available |
-| Operative System | os | Open Source | open-source |
-| Operative System | os | License | license |
-| Operative System | os | Reproducible Builds | reproducible-builds |
+| Firmware | firmware | Firmware Name | firmware-name |
+| Firmware | firmware | Latest Version | latest-version |
+| Firmware | firmware | Lastes Release Date | latest-release-date |
+| Firmware | firmware | Release Notes | release-notes |
+| Firmware | firmware | Source-available | source-available |
+| Firmware | firmware | Open Source | open-source |
+| Firmware | firmware | License | license |
+| Firmware | firmware | Reproducible Builds | reproducible-builds |
 | Platforms | platforms | Windows | windows |
 | Platforms | platforms | MacOS | macos |
 | Platforms | platforms | Linux | linux |
 | Platforms | platforms | PC Disk Image | pc-disk-image |
 | Platforms | platforms | Virtual Machine | virtual-machine |
 | Platforms | platforms | Raspberry Pi 4 | raspberry-pi-4 |
+| Platforms | platforms | Rock64 | rock-64 |
+| Platforms | platforms | RockPro64 | rock-pro-64 |
+| Platforms | platforms | RockPi 4 | rockpi-4 |
 | Bitcoin Apps | bitcoin-apps | Bitcoin Node | bitcoin-node |
 | Bitcoin Apps | bitcoin-apps | Lightning Node | lightning-node |
+| Bitcoin Apps | bitcoin-apps | Block Explorer | block-explorer |
 | Bitcoin Apps | bitcoin-apps | Mempool Visualizer | mempool-visualizer |
+| Bitcoin Apps | bitcoin-apps | CoinJoin | coinjoin |
 | Bitcoin Apps | bitcoin-apps | BTCPay Server | btcpay-server |
-| Bitcoin Apps | bitcoin-apps | Electrs | electrs |
+| Bitcoin Apps | bitcoin-apps | Electrum Server | electrum-server |
 | Bitcoin Apps | bitcoin-apps | Samourai Server | samourai-server |
 | Bitcoin Apps | bitcoin-apps | Specter Desktop | specter-desktop |
 | Other Features | other-features | Official Marketplace | official-marketplace |
