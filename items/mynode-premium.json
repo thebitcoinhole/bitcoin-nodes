@@ -1,13 +1,13 @@
 {
-  "id": "mynode-community-edition",
-  "name": "Community Edition",
+  "id": "mynode-premium",
+  "name": "Premium",
   "purchasable": false,
   "buildable": true,
   "basic-information": {
     "price": {
-      "value": "$150",
+      "value": "$249",
       "texts": [
-        "Estmated price to build a Raspberry Pi 4"
+        "Estmated price to build a Raspberry Pi 4 + MyNode 'Premium' for a one time fee of $99 which enables extra features"
       ]
     },
     "amazon": {
@@ -264,9 +264,9 @@
       "flag": "positive"
     },
     "specter-desktop": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "other-features": {
