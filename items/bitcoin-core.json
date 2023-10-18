@@ -81,8 +81,7 @@
   },
   "hardware": {
     "form-factor": {
-      "value": "Software",
-      "supported": false
+      "value": "Software"
     },
     "cpu": {
       "value": "-"

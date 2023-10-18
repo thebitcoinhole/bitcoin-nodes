@@ -85,8 +85,7 @@
   },
   "hardware": {
     "form-factor": {
-      "value": "DIY",
-      "supported": true
+      "value": "DIY"
     },
     "cpu": {
       "value": "-"

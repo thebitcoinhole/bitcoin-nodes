@@ -86,7 +86,6 @@
   "hardware": {
     "form-factor": {
       "value": "DIY",
-      "supported": true,
       "links": [
         {
           "title": "Community Custom Builds",

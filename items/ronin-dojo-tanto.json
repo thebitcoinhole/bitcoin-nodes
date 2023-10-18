@@ -83,8 +83,7 @@
   },
   "hardware": {
     "form-factor": {
-      "value": "Box",
-      "supported": false
+      "value": "Box"
     },
     "cpu": {
       "value": "Hexa-Core Rockchip RK3399"

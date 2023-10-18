@@ -1,134 +1,122 @@
 {
-  "id": "mynode-model-one",
-  "name": "Model One",
-  "purchasable": true,
+  "id": "raspibolt",
+  "name": "RaspiBolt",
+  "purchasable": false,
+  "buildable": true,
   "basic-information": {
     "price": {
-      "value": "$399"
+      "value": "$150"
     },
     "year": {
-      "value": "2022"
+      "value": "2019"
     }
   },
   "company": {
     "brand": {
-      "value": "MyNode"
+      "value": "RaspiBolt"
     },
     "headquarters": {
-      "value": "USA"
+      "value": "-"
     },
     "website": {
       "value": "Website",
-      "url": "https://mynodebtc.com/"
+      "url": "https://raspibolt.org/"
     },
     "blog": {
       "value": "-"
     },
     "twitter": {
-      "value": "@mynodebtc",
-      "url": "https://twitter.com/mynodebtc"
+      "value": "@raspibolt",
+      "url": "https://twitter.com/raspibolt"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@mynode",
-      "url": "https://www.youtube.com/@mynode"
+      "value": "-"
     },
     "github": {
-      "value": "mynodebtc",
-      "url": "https://github.com/mynodebtc"
+      "value": "raspibolt",
+      "url": "https://github.com/raspibolt"
     }
   },
   "communities": {
     "telegram": {
-      "value": "myNode",
-      "url": "https://t.me/mynode_btc"
+      "value": "raspibolt",
+      "url": "https://t.me/raspibolt"
     },
     "reddit": {
-      "value": "-"
+      "value": "raspibolt",
+      "url": "https://www.reddit.com/r/raspibolt/"
     }
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
+      "value": "-",
+      "supported": false
     },
     "btc-lightning": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
+      "value": "-",
+      "supported": false
     },
     "alt-coins": {
-      "value": "NO",
+      "value": "-",
       "supported": false
     },
     "credit-debit-card": {
-      "value": "YES",
-      "supported": true
+      "value": "-",
+      "supported": false
     }
   },
   "size-materials": {
     "warranty": {
-      "value": "NO",
-      "flag": "negative",
+      "value": "-",
       "supported": false
     },
     "weight": {
-      "value": "?"
+      "value": "-"
     },
     "dimensions": {
-      "value": "?"
+      "value": "-"
     }
   },
   "hardware": {
     "form-factor": {
-      "value": "Box"
+      "value": "DIY"
     },
     "cpu": {
-      "value": "Quad core Cortex-A72"
+      "value": "-"
     },
     "ram": {
-      "value": "4 GB / 8 GB"
+      "value": "-"
     },
     "storage": {
-      "value": "1+ TB"
+      "value": "-"
     },
     "ethernet": {
-      "value": "Gigabit Ethernet",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": true
     },
     "wifi": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Connect WiFi",
-          "url": "https://mynodebtc.github.io/device/connect-wifi.html"
-        }
-      ]
+      "value": "-",
+      "supported": true
     },
     "hdmi": {
-      "value": "2x micro-HDMI",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": false
     },
     "usb": {
-      "value": "2x USB 2.0 / 2x USB 3.0",
-      "supported": true,
-      "flag": "positive"
+      "value": "-",
+      "supported": true
     },
     "bluetooth": {
-      "value": "NO",
+      "value": "-",
       "supported": false
     }
   },
   "firmware": {
     "firmware-name": {
-      "value": "MyNode"
+      "value": "RaspiBolt"
     },
     "latest-version": {
       "value": "?"
@@ -142,7 +130,7 @@
       "links": [
         {
           "title": "Releases Notes",
-          "url": "https://github.com/mynodebtc/mynode/blob/master/CHANGELOG"
+          "url": "https://github.com/raspibolt/raspibolt/releases"
         }
       ]
     },
@@ -153,22 +141,22 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/mynodebtc/mynode"
+          "url": "https://github.com/raspibolt/raspibolt/"
         }
       ]
     },
     "open-source": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "license": {
-      "value": "Creative Commons NonCommercial",
+      "value": "MIT",
       "supported": false,
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/mynodebtc/mynode/blob/master/LICENSE.md"
+          "url": "https://github.com/raspibolt/raspibolt/blob/master/LICENSE"
         }
       ]
     },
@@ -179,40 +167,49 @@
   },
   "platforms": {
     "windows": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "macos": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "linux": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "pc-disk-image": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "virtual-machine": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "raspberry-pi-4": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "rock-64": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "rock-pro-64": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "rockpi-4": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "bitcoin-apps": {
@@ -240,14 +237,17 @@
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "texts": [
-        "Whirlpool + JoinMarket"
+      "links": [
+        {
+          "title": "Bonus guide: JoinMarket clientserver",
+          "url": "https://raspibolt.org/guide/bonus/bitcoin/joinmarket.html"
+        }
       ]
     },
     "btcpay-server": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "electrum-server": {
       "value": "YES",
@@ -257,19 +257,31 @@
     "samourai-server": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Bonus guide: Samourai Dojo",
+          "url": "https://raspibolt.org/guide/bonus/bitcoin/dojo.html"
+        }
+      ]
     },
     "specter-desktop": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Bonus guide: Specter Desktop",
+          "url": "https://raspibolt.org/guide/bonus/bitcoin/specter-desktop.html"
+        }
+      ]
     }
   },
   "other-features": {
     "official-marketplace": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "thirdparty-marketplace": {
       "value": "NO",
@@ -277,9 +289,15 @@
       "flag": "negative"
     },
     "backup-restore": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "asdasd",
+          "url": "https://raspibolt.org/guide/faq.html#backup--restore-bitcoin-data"
+        }
+      ]
     },
     "health-checks": {
       "value": "NO",

@@ -84,8 +84,7 @@
   },
   "hardware": {
     "form-factor": {
-      "value": "Box",
-      "supported": false
+      "value": "Box"
     },
     "cpu": {
       "value": "4 Core Intel"

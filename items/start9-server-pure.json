@@ -85,8 +85,7 @@
   },
   "hardware": {
     "form-factor": {
-      "value": "Box",
-      "supported": false
+      "value": "Box"
     },
     "cpu": {
       "value": "Intel Core i7"
