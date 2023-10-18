@@ -9,6 +9,9 @@
     },
     "year": {
       "value": "2011"
+    },
+    "form-factor": {
+      "value": "Software"
     }
   },
   "company": {
@@ -80,9 +83,6 @@
     }
   },
   "hardware": {
-    "form-factor": {
-      "value": "Software"
-    },
     "cpu": {
       "value": "-"
     },

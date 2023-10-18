@@ -8,6 +8,9 @@
     },
     "year": {
       "value": "2022"
+    },
+    "form-factor": {
+      "value": "Box"
     }
   },
   "company": {
@@ -82,9 +85,6 @@
     }
   },
   "hardware": {
-    "form-factor": {
-      "value": "Box"
-    },
     "cpu": {
       "value": "Hexa-Core Rockchip RK3399"
     },

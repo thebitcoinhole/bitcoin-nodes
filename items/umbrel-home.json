@@ -8,6 +8,9 @@
     },
     "year": {
       "value": "2023"
+    },
+    "form-factor": {
+      "value": "Box"
     }
   },
   "company": {
@@ -83,9 +86,6 @@
     }
   },
   "hardware": {
-    "form-factor": {
-      "value": "Box"
-    },
     "cpu": {
       "value": "Intel Celeron N5105"
     },

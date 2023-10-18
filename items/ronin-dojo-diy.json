@@ -12,6 +12,15 @@
     },
     "year": {
       "value": "2022"
+    },
+    "form-factor": {
+      "value": "DIY",
+      "links": [
+        {
+          "title": "Community Custom Builds",
+          "url": "https://wiki.ronindojo.io/en/extras/community-custom-builds"
+        }
+      ]
     }
   },
   "company": {
@@ -84,15 +93,6 @@
     }
   },
   "hardware": {
-    "form-factor": {
-      "value": "DIY",
-      "links": [
-        {
-          "title": "Community Custom Builds",
-          "url": "https://wiki.ronindojo.io/en/extras/community-custom-builds"
-        }
-      ]
-    },
     "cpu": {
       "value": "-"
     },

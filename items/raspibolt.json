@@ -9,6 +9,9 @@
     },
     "year": {
       "value": "2019"
+    },
+    "form-factor": {
+      "value": "DIY"
     }
   },
   "company": {
@@ -81,9 +84,6 @@
     }
   },
   "hardware": {
-    "form-factor": {
-      "value": "DIY"
-    },
     "cpu": {
       "value": "-"
     },

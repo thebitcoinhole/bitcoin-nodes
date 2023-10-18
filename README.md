@@ -76,6 +76,7 @@ All the features supported:
 | Basic Information | basic-information | Price | price |
 | Basic Information | basic-information | Discounts | discounts |
 | Basic Information | basic-information | Launch Year | year |
+| Basic Information | basic-information | Form Factor | form-factor |
 | Company | company | Brand | brand |
 | Company | company | Headquarters | headquarters |
 | Company | company | Website | website |
@@ -93,7 +94,6 @@ All the features supported:
 | Size & Materials | size-materials | Warranty | warranty |
 | Size & Materials | size-materials | Weight | weight |
 | Size & Materials | size-materials | Dimensions | dimensions |
-| Hardware | hardware | Form Factor | form-factor |
 | Hardware | hardware | CPU | cpu |
 | Hardware | hardware | RAM | ram |
 | Hardware | hardware | Storage | storage |

@@ -12,6 +12,9 @@
     },
     "year": {
       "value": "2022"
+    },
+    "form-factor": {
+      "value": "DIY"
     }
   },
   "company": {
@@ -84,9 +87,6 @@
     }
   },
   "hardware": {
-    "form-factor": {
-      "value": "DIY"
-    },
     "cpu": {
       "value": "-"
     },
