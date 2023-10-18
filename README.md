@@ -75,7 +75,6 @@ All the features supported:
 | --- | --- | --- | --- |
 | Basic Information | basic-information | Price | price |
 | Basic Information | basic-information | Discounts | discounts |
-| Basic Information | basic-information | Amazon Official Store | amazon |
 | Basic Information | basic-information | Launch Year | year |
 | Company | company | Brand | brand |
 | Company | company | Headquarters | headquarters |

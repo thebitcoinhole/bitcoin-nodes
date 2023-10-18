@@ -10,9 +10,6 @@
         "Estmated price to build a Raspberry Pi 4"
       ]
     },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2020"
     }

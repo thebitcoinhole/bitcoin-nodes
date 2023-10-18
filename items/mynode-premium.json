@@ -10,9 +10,6 @@
         "Estmated price to build a Raspberry Pi 4 + MyNode 'Premium' for a one time fee of $99 which enables extra features"
       ]
     },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2022"
     }
