@@ -1,6 +1,7 @@
 {
   "id": "start9-server-one",
   "name": "Server One",
+  "full-name": "Start9 Server One",
   "purchasable": true,
   "basic-information": {
     "price": {

@@ -1,6 +1,7 @@
 {
   "id": "mynode-model-two",
   "name": "Model Two",
+  "full-name": "MyNode Model Two",
   "purchasable": true,
   "basic-information": {
     "price": {

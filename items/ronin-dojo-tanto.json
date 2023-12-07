@@ -1,6 +1,7 @@
 {
   "id": "ronin-dojo-tanto",
   "name": "Tanto",
+  "full-name": "Ronin Dojo Tanto",
   "purchasable": true,
   "basic-information": {
     "price": {

@@ -1,6 +1,7 @@
 {
   "id": "nodl-one",
   "name": "One",
+  "full-name": "nodl One",
   "purchasable": true,
   "basic-information": {
     "price": {

@@ -1,6 +1,7 @@
 {
   "id": "umbrel-home",
   "name": "Home",
+  "full-name": "Umbrel Home",
   "purchasable": true,
   "basic-information": {
     "price": {

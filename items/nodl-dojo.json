@@ -1,6 +1,7 @@
 {
   "id": "nodl-dojo",
   "name": "Dojo",
+  "full-name": "nodl Dojo",
   "purchasable": true,
   "basic-information": {
     "price": {
