@@ -33,8 +33,6 @@ axios
     if (releases == "true") {
         console.log("Using releases API")
 
-        // TODO Add support to multiple variants of bitbox & onekey. I need to get more than the last tag
-
         body = response.data.body
         publishedAt = response.data.published_at
         assets = response.data.assets
@@ -60,6 +58,9 @@ axios
 
         // Bitcoin Core
         latestVersion = latestVersion.replace(/^Bitcoin Core /, '');
+
+        // Umbrel
+        latestVersion = latestVersion.replace(/^umbrelOS /, '');
 
         // Check if the input starts with "v" and is a valid version (x.y.z)
         const versionPattern = /^v\d+(\.\d+)*$/;
