@@ -38,6 +38,15 @@ axios
         }
     }
 
+    // Parmanode
+    if (latestVersion == undefined || latestReleaseDate == undefined) {
+        const line = lines[0]
+        const regex = /^Version ([\d.]+)/;
+        const match = line.match(regex);
+        latestVersion = "v" + match[1];
+        latestReleaseDate = null
+    }
+
     console.log(`Sanitized version: ${latestVersion}`);
     console.log(`Release Date: ${latestReleaseDate}`);
     updateJson(itemId, latestVersion, latestReleaseDate);
