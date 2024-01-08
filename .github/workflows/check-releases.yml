@@ -1,0 +1,49 @@
+name: Check Releases
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"  # Runs every day at 12:00 AM UTC
+
+jobs:
+  bitcoin-core:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: bitcoin-core
+      github-org: bitcoin
+      github-repo: bitcoin
+      releases: true
+  minibolt:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: minibolt
+      github-org: minibolt-guide
+      github-repo: minibolt
+      releases: true
+  parmanode:
+    uses: ./.github/workflows/check-changelog-template.yml
+    with:
+      item-id: parmanode
+      changelog-url: https://raw.githubusercontent.com/ArmanTheParman/Parmanode/master/changelog
+  raspiblitz:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: raspiblitz
+      github-org: raspiblitz
+      github-repo: raspiblitz
+      releases: true
+  start9:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: start9
+      github-org: Start9Labs
+      github-repo: start-os
+      releases: true
+  umbrel:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: umbrel
+      github-org: getumbrel
+      github-repo: umbrel
+      releases: true
+  
