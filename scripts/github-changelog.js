@@ -44,7 +44,7 @@ axios
         const regex = /^Version ([\d.]+)/;
         const match = line.match(regex);
         latestVersion = "v" + match[1];
-        latestReleaseDate = null
+        latestReleaseDate = "?"
     }
 
     console.log(`Sanitized version: ${latestVersion}`);
