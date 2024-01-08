@@ -21,7 +21,7 @@ jobs:
       github-repo: minibolt
       releases: true
   mynode-community-edition:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-community-edition
       github-org: mynodebtc
