@@ -55,37 +55,11 @@ axios
 
     if (!ignoreVersion(itemId, latestVersion)) {
 
+        // MiniBolt
+        latestVersion = latestVersion.replace(/^MiniBolt /, '');
 
-        // Bitbox
-        latestVersion = latestVersion.replace(/ - Multi$/, '');
-        latestVersion = latestVersion.replace(/ - Bitcoin-only$/, '');
-
-        // OneKey
-        latestVersion = latestVersion.replace(/^mini\//, '');
-        latestVersion = latestVersion.replace(/^classic\//, '');
-        latestVersion = latestVersion.replace(/^touch\//, '');
-
-        // Passport
-        latestVersion = latestVersion.replace(/^Passport /, '');
-        latestVersion = latestVersion.replace(/ Firmware$/, '');
-
-        // ProKey
-        latestVersion = latestVersion.replace(/^Prokey Firmware /, '');
-
-        // Keepkey
-        latestVersion = latestVersion.replace(/^Release /, '');
-
-        // Krux
-        latestVersion = latestVersion.replace(/^Version /, '');
-
-        // For example: "2023-09-08T2009-v5.1.4"
-        latestVersion = latestVersion.replace(/.*-([^:]+)$/, '$1');
-
-        latestVersion = latestVersion.replace(/^(v\d+(\.\d+)+):(.*)$/, '$1');
-        latestVersion = latestVersion.replace(/^Phoenix Android\s*/, '');
-        latestVersion = latestVersion.replace(/^Android Release\s*/, '');
-        latestVersion = latestVersion.replace(/^Release\s*/, '');
-        latestVersion = latestVersion.replace(/^release_/, '');
+        // Bitcoin Core
+        latestVersion = latestVersion.replace(/^Bitcoin Core /, '');
 
         // Check if the input starts with "v" and is a valid version (x.y.z)
         const versionPattern = /^v\d+(\.\d+)*$/;
@@ -130,30 +104,6 @@ function ignoreVersion(itemId, latestVersion) {
     // Ignore if it ends with "-rc", "-rc1", "-rc2", etc.
     pattern = /-rc\d*$/;
     if (pattern.test(latestVersion)) {
-        return true
-    }
-
-    if (itemId == "bitbox02-btconly" && !latestVersion.endsWith("Bitcoin-only")) {
-        return true
-    }
-
-    if (itemId == "bitbox02-multi" && !latestVersion.endsWith("Multi")) {
-        return true
-    }
-
-    if (itemId == "onekey-mini" && !latestVersion.startsWith("mini/")) {
-        return true
-    }
-
-    if (itemId == "onekey-classic" && !latestVersion.startsWith("classic/")) {
-        return true
-    }
-
-    if (itemId == "onekey-touch" && !latestVersion.startsWith("touch/")) {
-        return true
-    }
-
-    if (itemId == "seedsigner" && latestVersion.endsWith("_EXP")) {
         return true
     }
 
