@@ -28,21 +28,21 @@ jobs:
       github-repo: mynode
       releases: false
   mynode-model-one:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-model-one
       github-org: mynodebtc
       github-repo: mynode
       releases: false
   mynode-model-two:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-model-two
       github-org: mynodebtc
       github-repo: mynode
       releases: false
   mynode-premium:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-premium
       github-org: mynodebtc
