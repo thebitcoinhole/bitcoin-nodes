@@ -200,6 +200,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "raspberry-pi-5": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "rock-64": {
       "value": "YES",
       "supported": true,

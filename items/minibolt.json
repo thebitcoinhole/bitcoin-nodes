@@ -5,10 +5,7 @@
   "buildable": true,
   "basic-information": {
     "price": {
-      "value": "$150",
-      "texts": [
-        "Estmated price to build a Raspberry Pi 4"
-      ]
+      "value": "-"
     },
     "year": {
       "value": "2022"
@@ -195,6 +192,11 @@
       "flag": "positive"
     },
     "raspberry-pi-4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "raspberry-pi-5": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

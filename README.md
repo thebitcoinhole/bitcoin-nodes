@@ -116,6 +116,7 @@ All the features supported:
 | Platforms | platforms | PC Disk Image | pc-disk-image |
 | Platforms | platforms | Virtual Machine | virtual-machine |
 | Platforms | platforms | Raspberry Pi 4 | raspberry-pi-4 |
+| Platforms | platforms | Raspberry Pi 5 | raspberry-pi-5 |
 | Platforms | platforms | Rock64 | rock-64 |
 | Platforms | platforms | RockPro64 | rock-pro-64 |
 | Platforms | platforms | RockPi 4 | rockpi-4 |

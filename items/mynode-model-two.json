@@ -203,6 +203,10 @@
       "value": "-",
       "supported": false
     },
+    "raspberry-pi-5": {
+      "value": "-",
+      "supported": false
+    },
     "rock-64": {
       "value": "-",
       "supported": false
