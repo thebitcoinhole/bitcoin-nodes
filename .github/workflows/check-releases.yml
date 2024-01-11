@@ -12,42 +12,42 @@ jobs:
       item-id: bitcoin-core
       github-org: bitcoin
       github-repo: bitcoin
-      releases: true
+      latestRelease: true
   minibolt:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: minibolt
       github-org: minibolt-guide
       github-repo: minibolt
-      releases: true
+      latestRelease: true
   mynode-community-edition:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-community-edition
       github-org: mynodebtc
       github-repo: mynode
-      releases: false
+      tag: true
   mynode-model-one:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-model-one
       github-org: mynodebtc
       github-repo: mynode
-      releases: false
+      tag: true
   mynode-model-two:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-model-two
       github-org: mynodebtc
       github-repo: mynode
-      releases: false
+      tag: true
   mynode-premium:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-premium
       github-org: mynodebtc
       github-repo: mynode
-      releases: false
+      tag: true
   parmanode:
     uses: ./.github/workflows/check-changelog-template.yml
     with:
@@ -59,40 +59,40 @@ jobs:
       item-id: raspiblitz
       github-org: raspiblitz
       github-repo: raspiblitz
-      releases: true
+      latestRelease: true
   start9-diy:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: start9-diy
       github-org: Start9Labs
       github-repo: start-os
-      releases: true
+      latestRelease: true
   start9-server-one:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: start9-server-one
       github-org: Start9Labs
       github-repo: start-os
-      releases: true
+      latestRelease: true
   start9-server-pure:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: start9-server-pure
       github-org: Start9Labs
       github-repo: start-os
-      releases: true
+      latestRelease: true
   umbrel-diy:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: umbrel-diy
       github-org: getumbrel
       github-repo: umbrel
-      releases: true
+      latestRelease: true
   umbrel-home:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: umbrel-home
       github-org: getumbrel
       github-repo: umbrel
-      releases: true
+      latestRelease: true
   
