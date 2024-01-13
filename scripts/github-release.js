@@ -86,7 +86,7 @@ axios
         latestVersion = latestVersion.replace(/^umbrelOS /, '');
 
         // Raspibolt
-        latestVersion = latestVersion.replace(/^Raspibolt /, '');
+        latestVersion = latestVersion.replace(/^RaspiBolt /, '');
 
         // Check if the input starts with "v" and is a valid version (x.y.z)
         const versionPattern = /^v\d+(\.\d+)*$/;
