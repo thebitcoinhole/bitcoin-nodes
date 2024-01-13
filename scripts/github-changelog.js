@@ -50,7 +50,8 @@ axios
         const match = line.match(regex);
         if (match) {
             latestVersion = "v" + match[1];
-            latestReleaseDate = "?"
+            const isoString = new Date().toISOString();
+            latestReleaseDate = isoString.split('.')[0] + 'Z';
         }
     }
 
