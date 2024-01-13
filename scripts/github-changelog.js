@@ -5,6 +5,11 @@ const axios = require('axios');
 const itemId = process.argv[2];
 const changelogUrl = process.argv[3];
 
+const months = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+];
+
 var latestVersion
 var latestReleaseDate
 
@@ -16,7 +21,7 @@ axios
     const lines = body.split('\n');
 
     // Find the first line starting with "##"
-    const regex = /^## \[([\d.]+)\] \(([^)]+)\)/;
+    var regex = /^## \[([\d.]+)\] \(([^)]+)\)/;
     for (const line of lines) {
         const match = line.match(regex);
         if (match) {
@@ -43,8 +48,29 @@ axios
         const line = lines[0]
         const regex = /^Version ([\d.]+)/;
         const match = line.match(regex);
-        latestVersion = "v" + match[1];
-        latestReleaseDate = "?"
+        if (match) {
+            latestVersion = "v" + match[1];
+            latestReleaseDate = "?"
+        }
+    }
+
+    // My Node
+    // === v0.3.25 ===
+    // - Released 1/11/24
+    if (latestVersion == undefined || latestReleaseDate == undefined) {
+        var line = lines[0]
+        regex = /^=== v([\d.]+) ===/;
+        var match = line.match(regex);
+        if (match) {
+            latestVersion = "v" + match[1];
+
+            line = lines[1]
+            regex = /^- Released ([\d.]+)\/([\d.]+)\/([\d.]+)/;
+            if (match) {
+                match = line.match(regex);
+                latestReleaseDate = `${months[parseInt(match[1]) - 1]} ${match[2]}, ${2000 + parseInt(match[3])}`;
+            }
+        }
     }
 
     console.log(`Sanitized version: ${latestVersion}`);
@@ -57,13 +83,7 @@ axios
     process.exit(1);
   });
 
-function formatDate(inputDate) {
-    // Define months for formatting
-    const months = [
-      "January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
-    ];
-  
+function formatDate(inputDate) {  
     // Split the input date string into parts
     const parts = inputDate.match(/(\d+)\w+\s(\w+)\s(\d+)/);
   
@@ -77,8 +97,7 @@ function formatDate(inputDate) {
         const date = new Date(year, monthIndex, day);
   
         // Format the date in the desired output format (e.g., "Jul 27, 2023")
-        const formattedDate = `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
-        return formattedDate;
+        return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
       }
     }
   
