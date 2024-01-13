@@ -21,22 +21,22 @@ jobs:
       github-repo: minibolt
       latestRelease: true
   mynode-community-edition:
-    uses: ./.github/workflows/check-release-template.yml
+    uses: ./.github/workflows/check-changelog-template.yml
     with:
       item-id: mynode-community-edition
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
   mynode-model-one:
-    uses: ./.github/workflows/check-release-template.yml
+    uses: ./.github/workflows/check-changelog-template.yml
     with:
       item-id: mynode-model-one
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
   mynode-model-two:
-    uses: ./.github/workflows/check-release-template.yml
+    uses: ./.github/workflows/check-changelog-template.yml
     with:
       item-id: mynode-model-two
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
   mynode-premium:
-    uses: ./.github/workflows/check-release-template.yml
+    uses: ./.github/workflows/check-changelog-template.yml
     with:
       item-id: mynode-premium
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
