@@ -85,6 +85,9 @@ axios
         // Umbrel
         latestVersion = latestVersion.replace(/^umbrelOS /, '');
 
+        // Raspibolt
+        latestVersion = latestVersion.replace(/^Raspibolt /, '');
+
         // Check if the input starts with "v" and is a valid version (x.y.z)
         const versionPattern = /^v\d+(\.\d+)*$/;
         if (!versionPattern.test(latestVersion)) {

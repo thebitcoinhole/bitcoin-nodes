@@ -52,6 +52,13 @@ jobs:
       github-org: raspiblitz
       github-repo: raspiblitz
       latestRelease: true
+  raspibolt:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: raspibolt
+      github-org: raspibolt
+      github-repo: raspibolt
+      latestRelease: true
   start9-diy:
     uses: ./.github/workflows/check-release-template.yml
     with:
