@@ -104,7 +104,7 @@ All the features supported:
 | Hardware | hardware | Bluetooth | bluetooth |
 | Firmware | firmware | Firmware Name | firmware-name |
 | Firmware | firmware | Latest Version | latest-version |
-| Firmware | firmware | Lastes Release Date | latest-release-date |
+| Firmware | firmware | Latest Release Date | latest-release-date |
 | Firmware | firmware | Release Notes | release-notes |
 | Firmware | firmware | Source-available | source-available |
 | Firmware | firmware | Open Source | open-source |
