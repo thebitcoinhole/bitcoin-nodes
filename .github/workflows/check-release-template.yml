@@ -48,8 +48,11 @@ jobs:
       working-directory: scripts
 
     - name: Run script
-      run: node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesMatch }} 
       working-directory: scripts
+      run: |
+        node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesMatch }} 
+        CHANGELOG_URL=$(node changelog-url.js ${{ inputs.item-id }})
+        echo "CHANGELOG_URL=${CHANGELOG_URL}" >> "$GITHUB_ENV"
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5.0.2
@@ -59,3 +62,4 @@ jobs:
         branch: "${{ inputs.item-id }}/new-release"
         add-paths: "items/*.json"
         reviewers: "${{ secrets.ASSIGNEE }}"
+        body: ${{ env.CHANGELOG_URL }}
