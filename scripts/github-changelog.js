@@ -50,8 +50,7 @@ axios
         const match = line.match(regex);
         if (match) {
             latestVersion = "v" + match[1];
-            const isoString = new Date().toISOString();
-            latestReleaseDate = isoString.split('.')[0] + 'Z';
+            latestReleaseDate = now();
         }
     }
 
@@ -83,6 +82,11 @@ axios
     console.error('Error fetching release information:', error.message);
     process.exit(1);
   });
+
+function now() {
+    const isoString = new Date().toISOString();
+    return new Date(isoString.split('.')[0] + 'Z').toLocaleDateString(undefined, dateOptions);
+}
 
 function formatDate(inputDate) {  
     // Split the input date string into parts
