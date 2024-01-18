@@ -5,6 +5,7 @@ const axios = require('axios');
 const itemId = process.argv[2];
 const changelogUrl = process.argv[3];
 
+const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
 const months = [
     "Jan", "Feb", "Mar", "Apr", "May", "Jun",
     "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
