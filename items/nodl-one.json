@@ -103,13 +103,11 @@
     },
     "wifi": {
       "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "hdmi": {
       "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "usb": {
       "value": "4x USB",
@@ -118,8 +116,7 @@
     },
     "bluetooth": {
       "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "firmware": {

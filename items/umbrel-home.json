@@ -109,7 +109,8 @@
     },
     "hdmi": {
       "value": "YES (hided)",
-      "supported": true
+      "supported": true,
+      "flag": "neutral"
     },
     "usb": {
       "value": "3x USB 3.0",

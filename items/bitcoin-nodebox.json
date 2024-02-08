@@ -1,14 +1,13 @@
 {
-  "id": "nodl-two",
-  "name": "Two",
-  "full-name": "nodl Two",
+  "id": "bitcoin-nodebox",
+  "name": "Bitcoin Nodebox",
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "€999"
+      "value": "$350"
     },
     "year": {
-      "value": "?"
+      "value": "2023"
     },
     "form-factor": {
       "value": "Box"
@@ -16,38 +15,38 @@
   },
   "company": {
     "brand": {
-      "value": "nodl"
+      "value": "Ministry of Nodes"
     },
     "headquarters": {
-      "value": "France"
+      "value": "Australia"
     },
     "website": {
       "value": "Website",
-      "url": "https://www.nodl.eu/"
+      "url": "https://www.ministryofnodes.com.au/"
     },
     "blog": {
-      "value": "-"
+      "value": "Blog",
+      "url": "sample"
     },
     "twitter": {
-      "value": "@nodl_it",
-      "url": "https://twitter.com/nodl_it"
+      "value": "@ministryofnodes",
+      "url": "https://twitter.com/ministryofnodes"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "nodl708",
-      "url": "https://www.youtube.com/@nodl708"
+      "value": "@ministryofnodes",
+      "url": "https://www.youtube.com/@ministryofnodes"
     },
     "github": {
-      "value": "nodl",
-      "url": "https://gitlab.lightning-solutions.eu/nodl"
+      "value": "-"
     }
   },
   "communities": {
     "telegram": {
-      "value": "nodl",
-      "url": "https://t.me/nodl_it"
+      "value": "ministryofnodes",
+      "url": "https://t.me/ministryofnodes"
     },
     "reddit": {
       "value": "-"
@@ -69,101 +68,96 @@
       "supported": false
     },
     "credit-debit-card": {
-      "value": "YES",
+      "value": "NO",
       "supported": true
     }
   },
   "size-materials": {
     "warranty": {
-      "value": "2 years",
-      "flag": "positive",
-      "supported": true
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "weight": {
-      "value": "?"
+      "value": "1.5kg / 52.9oz"
     },
     "dimensions": {
-      "value": "?"
+      "value": "18 x 18 x 4 cm"
     }
   },
   "hardware": {
     "cpu": {
-      "value": "?"
+      "value": "Intel i5"
     },
     "ram": {
-      "value": "?"
+      "value": "8 GB"
     },
     "storage": {
-      "value": "2x 2 TB",
-      "texts": [
-        "2 x 2TB Samsung SSDs configured in RAID for storage redundancy and increased lifetime"
-      ]
+      "value": "2 TB"
     },
     "ethernet": {
-      "value": "Gigabit Ethernet",
+      "value": "YES",
       "supported": true,
       "flag": "positive"
     },
     "wifi": {
-      "value": "NO",
-      "supported": false
+      "value": "YES/NO",
+      "supported": true,
+      "texts": [
+        "Depends on the model in stock"
+      ]
     },
     "hdmi": {
-      "value": "NO",
-      "supported": false
+      "value": "YES/NO",
+      "supported": true,
+      "texts": [
+        "Depends on the model in stock"
+      ]
     },
     "usb": {
-      "value": "4x USB",
+      "value": "YES",
       "supported": true,
       "flag": "positive"
     },
     "bluetooth": {
-      "value": "NO",
-      "supported": false
+      "value": "YES/NO",
+      "supported": true,
+      "texts": [
+        "Depends on the model in stock"
+      ]
     }
   },
   "firmware": {
     "firmware-name": {
-      "value": "-"
+      "value": "-",
+      "texts": [
+        "It comes with the following software installed:",
+        "- Operating system: Ubuntu Server 22.04 LTS",
+        "- Bitcoin: Bitcoin Core",
+        "- Private Electrum Server: electrs",
+        "- Blockchain explorer: mempool.space"
+      ]
     },
     "latest-version": {
-      "value": "?"
+      "value": "-"
     },
     "latest-release-date": {
-      "value": "?"
+      "value": "-"
     },
     "release-notes": {
-      "value": "?"
+      "value": "-"
     },
     "source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private"
-        }
-      ]
+      "value": "-"
     },
     "open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "-"
     },
     "license": {
-      "value": "MIT",
-      "supported": false,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/blob/master/LICENSE"
-        }
-      ]
+      "value": "-"
     },
     "reproducible-builds": {
-      "value": "?",
-      "supported": false
+      "value": "-"
     }
   },
   "platforms": {
@@ -215,9 +209,9 @@
       "flag": "positive"
     },
     "lightning-node": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "block-explorer": {
       "value": "YES",
@@ -225,22 +219,19 @@
       "flag": "positive"
     },
     "mempool-visualizer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coinjoin": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
     },
-    "coinjoin": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "texts": [
-        "Whirlpool"
-      ]
-    },
     "btcpay-server": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "electrum-server": {
       "value": "YES",
@@ -248,9 +239,9 @@
       "flag": "positive"
     },
     "samourai-server": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "specter-desktop": {
       "value": "NO",
@@ -270,8 +261,9 @@
       "flag": "negative"
     },
     "backup-restore": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "health-checks": {
       "value": "NO",
@@ -279,14 +271,14 @@
       "flag": "negative"
     },
     "ssl": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "tor": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
 }
