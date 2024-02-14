@@ -5,10 +5,10 @@
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$499"
+      "value": "$399"
     },
     "year": {
-      "value": "2023"
+      "value": "2024"
     },
     "form-factor": {
       "value": "Box"
@@ -89,13 +89,22 @@
   },
   "hardware": {
     "cpu": {
-      "value": "Intel Celeron N5105"
+      "value": "Intel Celeron N100",
+      "texts": [
+        "3.4GHz Quad-Core CPU"
+      ]
     },
     "ram": {
-      "value": "16 GB"
+      "value": "16 GB",
+      "texts": [
+        "16GB DDR5 RAM"
+      ]
     },
     "storage": {
-      "value": "2 TB"
+      "value": "2 TB",
+      "texts": [
+        "2TB SSD"
+      ]
     },
     "ethernet": {
       "value": "Gigabit Ethernet",
