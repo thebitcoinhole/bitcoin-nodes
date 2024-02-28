@@ -280,6 +280,16 @@
           "url": "https://raspibolt.org/guide/bonus/bitcoin/specter-desktop.html"
         }
       ]
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "other-features": {

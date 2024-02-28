@@ -261,6 +261,16 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "electrum-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "sparrow-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "other-features": {
