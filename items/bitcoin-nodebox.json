@@ -8,9 +8,6 @@
     },
     "year": {
       "value": "2023"
-    },
-    "form-factor": {
-      "value": "Box"
     }
   },
   "company": {
@@ -86,8 +83,11 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "cpu": {
-      "value": "Intel i5"
+      "value": "Intel Core i5"
     },
     "ram": {
       "value": "8 GB"
@@ -96,13 +96,14 @@
       "value": "2 TB"
     },
     "ethernet": {
-      "value": "YES",
+      "value": "Gigabit Ethernet",
       "supported": true,
       "flag": "positive"
     },
     "wifi": {
       "value": "YES/NO",
       "supported": true,
+      "flag": "neutral",
       "texts": [
         "Depends on the model in stock"
       ]

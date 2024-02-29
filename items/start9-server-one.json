@@ -9,9 +9,6 @@
     },
     "year": {
       "value": "2023"
-    },
-    "form-factor": {
-      "value": "Box"
     }
   },
   "company": {
@@ -88,14 +85,20 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "cpu": {
-      "value": "Intel Celeron"
+      "value": "Intel Celeron N5105",
+      "texts": [
+        "4 cores, 4 threads, 2.00 GHz base frequency, 2.90 GHz turbo frequency"
+      ]
     },
     "ram": {
       "value": "16 GB"
     },
     "storage": {
-      "value": "1+ TB"
+      "value": "2/4 TB"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",

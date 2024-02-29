@@ -9,9 +9,6 @@
     },
     "year": {
       "value": "2022"
-    },
-    "form-factor": {
-      "value": "Box"
     }
   },
   "company": {
@@ -87,14 +84,17 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "cpu": {
       "value": "Quad core Cortex-A72"
     },
     "ram": {
-      "value": "4 GB / 8 GB"
+      "value": "8 GB"
     },
     "storage": {
-      "value": "1+ TB"
+      "value": "1/2 TB"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",
@@ -114,8 +114,7 @@
     },
     "hdmi": {
       "value": "2x micro-HDMI",
-      "supported": true,
-      "flag": "positive"
+      "supported": true
     },
     "usb": {
       "value": "2x USB 2.0 / 2x USB 3.0",

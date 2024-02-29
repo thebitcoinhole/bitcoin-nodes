@@ -9,9 +9,6 @@
     },
     "year": {
       "value": "2022"
-    },
-    "form-factor": {
-      "value": "Box"
     }
   },
   "company": {
@@ -87,6 +84,9 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "cpu": {
       "value": "4 Core Intel"
     },
@@ -94,7 +94,7 @@
       "value": "8 GB"
     },
     "storage": {
-      "value": "1+ TB"
+      "value": "2 TB"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",
@@ -114,8 +114,7 @@
     },
     "hdmi": {
       "value": "2x HDMI",
-      "supported": true,
-      "flag": "positive"
+      "supported": true
     },
     "usb": {
       "value": "2x USB 2.0 / 2x USB 3.0",

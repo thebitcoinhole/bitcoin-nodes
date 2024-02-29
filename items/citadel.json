@@ -5,16 +5,13 @@
   "buildable": true,
   "basic-information": {
     "price": {
-      "value": "$150",
+      "value": "$259.37",
       "texts": [
-        "Estmated price to build a Raspberry Pi 4"
+        "Estimated cost of the recommended setup (8GB RAM, 2TB SSD)"
       ]
     },
     "year": {
       "value": "2021"
-    },
-    "form-factor": {
-      "value": "DIY"
     }
   },
   "company": {
@@ -86,34 +83,58 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "DIY"
+    },
     "cpu": {
       "value": "-"
     },
     "ram": {
-      "value": "-"
+      "value": "4/8 GB",
+      "texts": [
+        "Raspberry Pi 4/5. Pick 8 GB RAM for maximum performance."
+      ]
     },
     "storage": {
-      "value": "-"
+      "value": "1+ TB",
+      "texts": [
+        "1 TB or more is recommended"
+      ]
     },
     "ethernet": {
-      "value": "-",
+      "value": "Gigabit Ethernet",
+      "flag": "positive",
       "supported": true
     },
     "wifi": {
-      "value": "-",
-      "supported": true
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4/5. 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless"
+      ]
     },
     "hdmi": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4/5. 2x micro-HDMI® ports (up to 4kp60 supported)"
+      ]
     },
     "usb": {
-      "value": "-",
-      "supported": true
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4/5. 2 USB 3.0 ports; 2 USB 2.0 ports."
+      ]
     },
     "bluetooth": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4/5. Bluetooth 5.0"
+      ]
     }
   },
   "firmware": {

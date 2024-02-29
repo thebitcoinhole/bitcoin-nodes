@@ -9,9 +9,6 @@
     },
     "year": {
       "value": "?"
-    },
-    "form-factor": {
-      "value": "Box"
     }
   },
   "company": {
@@ -87,8 +84,11 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "cpu": {
-      "value": "?"
+      "value": "Hexa-Core Rockchip RK3399"
     },
     "ram": {
       "value": "?"
@@ -103,7 +103,8 @@
     },
     "wifi": {
       "value": "NO",
-      "supported": false
+      "supported": false,
+      "flag": "negative"
     },
     "hdmi": {
       "value": "NO",

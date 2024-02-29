@@ -9,9 +9,6 @@
     },
     "year": {
       "value": "2023"
-    },
-    "form-factor": {
-      "value": "Box"
     }
   },
   "company": {
@@ -88,6 +85,9 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "cpu": {
       "value": "Intel Core i7"
     },
@@ -95,7 +95,7 @@
       "value": "32 GB"
     },
     "storage": {
-      "value": "2+ TB"
+      "value": "2/4 TB"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",

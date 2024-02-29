@@ -9,9 +9,6 @@
     },
     "year": {
       "value": "2019"
-    },
-    "form-factor": {
-      "value": "DIY"
     }
   },
   "company": {
@@ -84,34 +81,58 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "DIY"
+    },
     "cpu": {
-      "value": "-"
+      "value": "Quad core Cortex-A72"
     },
     "ram": {
-      "value": "-"
+      "value": "4/8 GB",
+      "texts": [
+        "Raspberry Pi 4. Pick 8 GB RAM for maximum performance."
+      ]
     },
     "storage": {
-      "value": "-"
+      "value": "1+ TB",
+      "texts": [
+        "1 TB or more is recommended"
+      ]
     },
     "ethernet": {
-      "value": "-",
+      "value": "Gigabit Ethernet",
+      "flag": "positive",
       "supported": true
     },
     "wifi": {
-      "value": "-",
-      "supported": true
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless"
+      ]
     },
     "hdmi": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. 2x micro-HDMI® ports (up to 4kp60 supported)"
+      ]
     },
     "usb": {
-      "value": "-",
-      "supported": true
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2 USB 3.0 ports; 2 USB 2.0 ports."
+      ]
     },
     "bluetooth": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. Bluetooth 5.0"
+      ]
     }
   },
   "firmware": {

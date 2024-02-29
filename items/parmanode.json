@@ -9,9 +9,6 @@
     },
     "year": {
       "value": "2023"
-    },
-    "form-factor": {
-      "value": "Software"
     }
   },
   "company": {
@@ -83,6 +80,9 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "Software"
+    },
     "cpu": {
       "value": "-"
     },
@@ -102,7 +102,7 @@
     },
     "hdmi": {
       "value": "-",
-      "supported": false
+      "supported": true
     },
     "usb": {
       "value": "-",
@@ -110,7 +110,7 @@
     },
     "bluetooth": {
       "value": "-",
-      "supported": false
+      "supported": true
     }
   },
   "firmware": {

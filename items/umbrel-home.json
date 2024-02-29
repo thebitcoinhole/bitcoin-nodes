@@ -9,9 +9,6 @@
     },
     "year": {
       "value": "2024"
-    },
-    "form-factor": {
-      "value": "Box"
     }
   },
   "company": {
@@ -88,6 +85,9 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "cpu": {
       "value": "Intel Celeron N100",
       "texts": [
@@ -118,8 +118,7 @@
     },
     "hdmi": {
       "value": "YES (hided)",
-      "supported": true,
-      "flag": "neutral"
+      "supported": true
     },
     "usb": {
       "value": "3x USB 3.0",

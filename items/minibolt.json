@@ -9,9 +9,6 @@
     },
     "year": {
       "value": "2022"
-    },
-    "form-factor": {
-      "value": "DIY"
     }
   },
   "company": {
@@ -84,6 +81,9 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "DIY"
+    },
     "cpu": {
       "value": "-"
     },
@@ -103,7 +103,7 @@
     },
     "hdmi": {
       "value": "-",
-      "supported": false
+      "supported": true
     },
     "usb": {
       "value": "-",
@@ -111,7 +111,7 @@
     },
     "bluetooth": {
       "value": "-",
-      "supported": false
+      "supported": true
     }
   },
   "firmware": {

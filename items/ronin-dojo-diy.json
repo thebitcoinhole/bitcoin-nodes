@@ -12,15 +12,6 @@
     },
     "year": {
       "value": "2022"
-    },
-    "form-factor": {
-      "value": "DIY",
-      "links": [
-        {
-          "title": "Community Custom Builds",
-          "url": "https://wiki.ronindojo.io/en/extras/community-custom-builds"
-        }
-      ]
     }
   },
   "company": {
@@ -93,34 +84,79 @@
     }
   },
   "hardware": {
+    "form-factor": {
+      "value": "DIY",
+      "links": [
+        {
+          "title": "Community Custom Builds",
+          "url": "https://wiki.ronindojo.io/en/extras/community-custom-builds"
+        }
+      ]
+    },
     "cpu": {
       "value": "-"
     },
     "ram": {
-      "value": "-"
+      "value": "4/8 GB",
+      "texts": [
+        "Raspberry Pi 4. Pick 8 GB RAM for maximum performance.",
+        "ROCK64. Supports up to 4GB 1600MHz LPDDR3 memory.",
+        "RockPro64. Supports up to 4GB of dual-channel LPDDR4 memory.",
+        "RockPi 4. Supports up to 4GB LPDDR4 3200Mb/s RAM."
+      ]
     },
     "storage": {
-      "value": "-"
+      "value": "1+ TB",
+      "texts": [
+        "1 TB or more is recommended"
+      ]
     },
     "ethernet": {
-      "value": "-",
+      "value": "Gigabit Ethernet",
+      "flag": "positive",
       "supported": true
     },
     "wifi": {
-      "value": "-",
-      "supported": true
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless",
+        "ROCK64. No wifi support unless you buy a expansion module.",
+        "RockPro64. No wifi support unless you buy a expansion module.",
+        "RockPi 4. On board 802.11 ac wifi offers 2.4G & 5G WLAN connectivity"
+      ]
     },
     "hdmi": {
-      "value": "-",
-      "supported": false
+      "value": "YES/NO",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. 2x micro-HDMI® ports (up to 4kp60 supported)",
+        "ROCK64. No HDMI",
+        "RockPro64. 1 HDMI port",
+        "RockPi 4. 1 HDMI port"
+      ]
     },
     "usb": {
-      "value": "-",
-      "supported": true
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2 USB 3.0 ports; 2 USB 2.0 ports.",
+        "ROCK64. 2x USB 2.0 Host. 1x USB 3.0 Host",
+        "RockPro64. 2x USB 2.0 Host. 1x USB 3.0 Host. 1x USB-C Host (With video out)",
+        "RockPi 4. 1x USB 3.0 OTG. 1x USB 3.0 HOST. 2x USB 2.0 HOST"
+      ]
     },
     "bluetooth": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. Bluetooth 5.0",
+        "ROCK64. No bluetooth support unless you buy a expansion module",
+        "RockPro64. No bluetooth support unless you buy a expansion module",
+        "RockPi 4. Bluetooh 5.0"
+      ]
     }
   },
   "firmware": {
