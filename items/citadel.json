@@ -5,9 +5,9 @@
   "buildable": true,
   "basic-information": {
     "price": {
-      "value": "$259.37",
+      "value": "$346",
       "texts": [
-        "Estimated cost of the recommended setup (8GB RAM, 2TB SSD)"
+        "Estmated price to build a Raspberry Pi 5 (8GB RAM, 2TB SSD)"
       ]
     },
     "year": {
