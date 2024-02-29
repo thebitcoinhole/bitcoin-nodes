@@ -70,7 +70,10 @@
       "supported": true
     }
   },
-  "size-materials": {
+  "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "warranty": {
       "value": "NO",
       "flag": "negative",
@@ -81,11 +84,6 @@
     },
     "dimensions": {
       "value": "?"
-    }
-  },
-  "hardware": {
-    "form-factor": {
-      "value": "Box"
     },
     "cpu": {
       "value": "Quad core Cortex-A72"

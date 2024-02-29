@@ -71,7 +71,10 @@
       "supported": true
     }
   },
-  "size-materials": {
+  "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "warranty": {
       "value": "1 year",
       "flag": "positive",
@@ -82,11 +85,6 @@
     },
     "dimensions": {
       "value": "12.8 x 12.8 x 3.8 cm"
-    }
-  },
-  "hardware": {
-    "form-factor": {
-      "value": "Box"
     },
     "cpu": {
       "value": "Intel Core i7"

@@ -71,7 +71,10 @@
       "supported": true
     }
   },
-  "size-materials": {
+  "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "warranty": {
       "value": "1 year",
       "flag": "positive",
@@ -82,11 +85,6 @@
     },
     "dimensions": {
       "value": "?"
-    }
-  },
-  "hardware": {
-    "form-factor": {
-      "value": "Box"
     },
     "cpu": {
       "value": "Intel Celeron N100",

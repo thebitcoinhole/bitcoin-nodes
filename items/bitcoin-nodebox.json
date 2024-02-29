@@ -69,7 +69,10 @@
       "supported": true
     }
   },
-  "size-materials": {
+  "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "warranty": {
       "value": "NO",
       "flag": "negative",
@@ -80,11 +83,6 @@
     },
     "dimensions": {
       "value": "18 x 18 x 4 cm"
-    }
-  },
-  "hardware": {
-    "form-factor": {
-      "value": "Box"
     },
     "cpu": {
       "value": "Intel Core i5"

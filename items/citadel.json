@@ -70,7 +70,10 @@
       "supported": false
     }
   },
-  "size-materials": {
+  "hardware": {
+    "form-factor": {
+      "value": "DIY"
+    },
     "warranty": {
       "value": "-",
       "supported": false
@@ -80,11 +83,6 @@
     },
     "dimensions": {
       "value": "-"
-    }
-  },
-  "hardware": {
-    "form-factor": {
-      "value": "DIY"
     },
     "cpu": {
       "value": "-"

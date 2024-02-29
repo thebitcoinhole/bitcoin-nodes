@@ -71,7 +71,10 @@
       "supported": true
     }
   },
-  "size-materials": {
+  "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "warranty": {
       "value": "1 year",
       "flag": "positive",
@@ -82,11 +85,6 @@
     },
     "dimensions": {
       "value": "12.5 x 11.5 x 3.6 cm"
-    }
-  },
-  "hardware": {
-    "form-factor": {
-      "value": "Box"
     },
     "cpu": {
       "value": "Intel Celeron N5105",

@@ -71,18 +71,6 @@
       "supported": false
     }
   },
-  "size-materials": {
-    "warranty": {
-      "value": "-",
-      "supported": false
-    },
-    "weight": {
-      "value": "-"
-    },
-    "dimensions": {
-      "value": "-"
-    }
-  },
   "hardware": {
     "form-factor": {
       "value": "DIY",
@@ -92,6 +80,16 @@
           "url": "https://wiki.ronindojo.io/en/extras/community-custom-builds"
         }
       ]
+    },
+    "warranty": {
+      "value": "-",
+      "supported": false
+    },
+    "weight": {
+      "value": "-"
+    },
+    "dimensions": {
+      "value": "-"
     },
     "cpu": {
       "value": "-"

@@ -70,7 +70,10 @@
       "supported": true
     }
   },
-  "size-materials": {
+  "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
     "warranty": {
       "value": "2 years",
       "flag": "positive",
@@ -81,11 +84,6 @@
     },
     "dimensions": {
       "value": "?"
-    }
-  },
-  "hardware": {
-    "form-factor": {
-      "value": "Box"
     },
     "cpu": {
       "value": "Hexa-Core Rockchip RK3399"
