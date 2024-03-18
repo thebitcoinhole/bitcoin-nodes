@@ -86,12 +86,14 @@ jobs:
       item-id: umbrel-diy
       github-org: getumbrel
       github-repo: umbrel
-      latestRelease: true
+      allReleases: true
+      allReleasesMatch: "umbrel"
   umbrel-home:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: umbrel-home
       github-org: getumbrel
       github-repo: umbrel
-      latestRelease: true
+      allReleases: true
+      allReleasesMatch: "umbrel"
   
