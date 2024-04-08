@@ -271,9 +271,9 @@
       "flag": "negative"
     },
     "sparrow-wallet": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "mutiny-wallet": {
       "value": "YES",
