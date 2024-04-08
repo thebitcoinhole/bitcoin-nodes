@@ -327,6 +327,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "mutiny-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "other-features": {
