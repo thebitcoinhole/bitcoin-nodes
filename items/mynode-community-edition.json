@@ -266,7 +266,7 @@
       "supported": true,
       "flag": "positive",
       "texts": [
-        "Whirlpool + JoinMarket"
+        "JoinMarket"
       ]
     },
     "btcpay-server": {

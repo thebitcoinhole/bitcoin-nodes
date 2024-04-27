@@ -291,12 +291,9 @@
       "flag": "positive"
     },
     "coinjoin": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "texts": [
-        "Whirlpool"
-      ]
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "btcpay-server": {
       "value": "NO",
