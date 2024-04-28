@@ -257,9 +257,9 @@
       "flag": "positive"
     },
     "samourai-server": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "specter-desktop": {
       "value": "YES",
