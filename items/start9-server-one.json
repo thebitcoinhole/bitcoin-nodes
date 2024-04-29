@@ -8,7 +8,7 @@
       "value": "$599"
     },
     "year": {
-      "value": "2020"
+      "value": "2024"
     }
   },
   "company": {
@@ -81,19 +81,19 @@
       "supported": true
     },
     "weight": {
-      "value": "1000g / 35.27ox"
+      "value": "370g / 13.05oz"
     },
     "dimensions": {
-      "value": "12.5 x 11.5 x 3.6 cm"
+      "value": "11.4 x 10.6 x 3.75 cm"
     },
     "cpu": {
-      "value": "Intel Celeron N5105",
-      "texts": [
-        "4 cores, 4 threads, 2.00 GHz base frequency, 2.90 GHz turbo frequency"
-      ]
+      "value": "AMD Ryzen 7 5825U"
     },
     "ram": {
-      "value": "16 GB"
+      "value": "16/32 GB",
+      "texts": [
+        "16GB (2x8GB) or 32GB (2x16GB) DDR4 RAM"
+      ]
     },
     "storage": {
       "value": "2/4 TB"
@@ -104,16 +104,16 @@
       "flag": "positive"
     },
     "wifi": {
-      "value": "802.11ac",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "hdmi": {
-      "value": "NO",
-      "supported": false
+      "value": "2x HDMI",
+      "supported": true
     },
     "usb": {
-      "value": "2x USB 2.0 / 4x USB 3.2",
+      "value": "2x USB 2.0 / 2x USB 3.0 / 1x USB 3.1",
       "supported": true,
       "flag": "positive"
     },

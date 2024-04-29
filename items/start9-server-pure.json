@@ -5,7 +5,7 @@
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$1399"
+      "value": "$1049"
     },
     "year": {
       "value": "2022"
@@ -81,7 +81,7 @@
       "supported": true
     },
     "weight": {
-      "value": "1000g / 35.27ox"
+      "value": "1000g / 35.27oz"
     },
     "dimensions": {
       "value": "12.8 x 12.8 x 3.8 cm"
