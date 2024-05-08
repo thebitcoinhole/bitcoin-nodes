@@ -40,6 +40,7 @@ on:
         type: boolean
       allReleasesInclude:
         required: false
+        default: "null"
         type: string
 
 jobs:
