@@ -98,7 +98,7 @@ axios
             const match = line.match(regex);
             if (match) {
                 latestVersion = "v" + match[1];
-                latestReleaseDate = now();
+                latestReleaseDate = today();
             }
         } else if (itemId.startsWith("mynode-")) {
             // === v0.3.25 ===
