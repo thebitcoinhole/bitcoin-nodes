@@ -32,6 +32,7 @@ if (tag == "true") {
     process.exit(1);
 }
 
+const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
 var latestVersion
 var latestReleaseDate
 // var assetFileNames = [];
@@ -208,7 +209,6 @@ axios
 
 function getDate(publishedAt) {
     if (publishedAt != "") {
-        const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
         return new Date(publishedAt).toLocaleDateString(undefined, dateOptions);
     } else {
         return today()
@@ -233,8 +233,7 @@ function ignoreVersion(itemId, latestVersion) {
 }
 
 function today() {
-    const isoString = new Date().toISOString();
-    return isoString.split('.')[0] + 'Z';
+    return new Date().toLocaleDateString(undefined, dateOptions);
 }
 
 function checkRelease(itemId, latestVersion, latestReleaseDate) {
