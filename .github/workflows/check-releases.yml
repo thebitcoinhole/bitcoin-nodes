@@ -21,27 +21,30 @@ jobs:
       github-repo: minibolt
       latestRelease: true
   mynode-community-edition:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-community-edition
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
   mynode-model-one:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-model-one
+      twitter-enabled: false
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
   mynode-model-two:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-model-two
+      twitter-enabled: false
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
   mynode-premium:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-premium
+      twitter-enabled: false
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
   parmanode:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: parmanode
       changelog-url: https://raw.githubusercontent.com/ArmanTheParman/Parmanode/master/changelog
@@ -70,6 +73,7 @@ jobs:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: start9-server-one
+      twitter-enabled: false
       github-org: Start9Labs
       github-repo: start-os
       latestRelease: true
@@ -77,6 +81,7 @@ jobs:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: start9-server-pure
+      twitter-enabled: false
       github-org: Start9Labs
       github-repo: start-os
       latestRelease: true
@@ -87,13 +92,14 @@ jobs:
       github-org: getumbrel
       github-repo: umbrel
       allReleases: true
-      allReleasesMatch: "umbrel"
+      allReleasesInclude: "umbrel"
   umbrel-home:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: umbrel-home
+      twitter-enabled: false
       github-org: getumbrel
       github-repo: umbrel
       allReleases: true
-      allReleasesMatch: "umbrel"
+      allReleasesInclude: "umbrel"
   
