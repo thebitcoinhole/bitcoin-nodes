@@ -112,6 +112,10 @@ axios
                 regex = /^- Released ([\d.]+)\/([\d.]+)\/([\d.]+)/;
                 if (match) {
                     match = line.match(regex);
+                    const months = [
+                        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+                    ];
                     latestReleaseDate = `${months[parseInt(match[1]) - 1]} ${match[2]}, ${2000 + parseInt(match[3])}`;
                 }
             }
@@ -289,15 +293,3 @@ function formatDate(inputDate) {
     return inputDate;
 }
 
-function formatDate2(date) {
-        
-    const dateObject = new Date(`${date}T00:00:00Z`);
-    
-    // Format the date as "MMM DD, YYYY"
-    return dateObject.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        timeZone: 'UTC'
-    });    
-}
