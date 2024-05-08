@@ -80,10 +80,10 @@
       "supported": true
     },
     "weight": {
-      "value": "?"
+      "value": "1.1kg / 38.8oz"
     },
     "dimensions": {
-      "value": "40 x 40 x 40 cm"
+      "value": "13.9 x 9.2 x 7.5 cm"
     },
     "cpu": {
       "value": "Hexa-Core Rockchip RK3399"
@@ -120,7 +120,7 @@
   },
   "firmware": {
     "firmware-name": {
-      "value": "nodel UI"
+      "value": "nodl UI"
     },
     "latest-version": {
       "value": "v1.3.10"
@@ -286,8 +286,9 @@
       "flag": "negative"
     },
     "backup-restore": {
-      "value": "?",
-      "supported": false
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
     },
     "health-checks": {
       "value": "NO",

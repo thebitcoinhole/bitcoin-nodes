@@ -8,7 +8,7 @@
       "value": "€999"
     },
     "year": {
-      "value": "?"
+      "value": "2023"
     }
   },
   "company": {
@@ -80,16 +80,16 @@
       "supported": true
     },
     "weight": {
-      "value": "?"
+      "value": "1.5kg / 52.9oz"
     },
     "dimensions": {
-      "value": "?"
+      "value": "17.5 x 11.5 x 8 cm"
     },
     "cpu": {
       "value": "Hexa-Core Rockchip RK3399"
     },
     "ram": {
-      "value": "?"
+      "value": "4 GB"
     },
     "storage": {
       "value": "2x 2 TB",
@@ -123,7 +123,7 @@
   },
   "firmware": {
     "firmware-name": {
-      "value": "nodel UI"
+      "value": "nodl UI"
     },
     "latest-version": {
       "value": "v1.3.10"
@@ -289,8 +289,9 @@
       "flag": "negative"
     },
     "backup-restore": {
-      "value": "?",
-      "supported": false
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
     },
     "health-checks": {
       "value": "NO",
