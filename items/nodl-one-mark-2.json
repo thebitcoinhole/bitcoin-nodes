@@ -1,14 +1,14 @@
 {
-  "id": "nodl-one",
-  "name": "One",
-  "full-name": "nodl One",
+  "id": "nodl-one-mark-2",
+  "name": "One Mark 2",
+  "full-name": "nodl One Mark 2",
   "purchasable": true,
   "basic-information": {
     "price": {
       "value": "€529"
     },
     "year": {
-      "value": "?"
+      "value": "2024"
     }
   },
   "company": {
@@ -89,7 +89,7 @@
       "value": "Hexa-Core Rockchip RK3399"
     },
     "ram": {
-      "value": "?"
+      "value": "4 GB"
     },
     "storage": {
       "value": "1 TB"
@@ -105,8 +105,8 @@
       "flag": "negative"
     },
     "hdmi": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "usb": {
       "value": "4x USB",
