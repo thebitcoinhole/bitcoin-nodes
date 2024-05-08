@@ -4,26 +4,35 @@ const axios = require('axios');
 
 const itemId = process.argv[2];
 const changelogUrl = process.argv[3];
-const owner = process.argv[4];
-const repo = process.argv[5];
-const apiKey = process.argv[6];
-const tag = process.argv[7];
-const latestRelease = process.argv[8];
-const allReleases = process.argv[9];
-const allReleasesInclude = process.argv[10];
-const allReleasesExclude = process.argv[11];
+const githubOwner = process.argv[4];
+const githubRepo = process.argv[5];
+const gitlabProjectId = process.argv[6];
+const githubApiKey = process.argv[7];
+const gitlabApiKey = process.argv[8];
+const tag = process.argv[9];
+const latestRelease = process.argv[10];
+const allReleases = process.argv[11];
+const allReleasesInclude = process.argv[12];
+const allReleasesExclude = process.argv[13];
 
 var headers = {
     Accept: 'application/vnd.github.v3+json',
-    Authorization: `Bearer ${apiKey}`,
+    Authorization: `Bearer ${githubApiKey}`,
   };
 var apiUrl 
 if (tag == "true") {
-    apiUrl = `https://api.github.com/repos/${owner}/${repo}/tags`;
+    if (gitlabProjectId != "null") {
+        headers = {
+            Authorization: `Bearer ${gitlabApiKey}`
+          };
+        apiUrl = `https://gitlab.com/api/v4/projects/${gitlabProjectId}/repository/tags`;
+    } else {
+        apiUrl = `https://api.github.com/repos/${githubOwner}/${githubRepo}/tags`;
+    }
 } else if (latestRelease == "true") {
-    apiUrl = `https://api.github.com/repos/${owner}/${repo}/releases/latest`;
+    apiUrl = `https://api.github.com/repos/${githubOwner}/${githubRepo}/releases/latest`;
 } else if (allReleases == "true") {
-    apiUrl = `https://api.github.com/repos/${owner}/${repo}/releases`;
+    apiUrl = `https://api.github.com/repos/${githubOwner}/${githubRepo}/releases`;
 } else if (changelogUrl != "null") {
     apiUrl = changelogUrl
     headers = {}
@@ -37,6 +46,7 @@ var latestVersion
 var latestReleaseDate
 // var assetFileNames = [];
 
+console.log("Request url: " + apiUrl)
 axios
   .get(apiUrl, { headers })
   .then((response) => {

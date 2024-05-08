@@ -13,6 +13,12 @@ jobs:
       github-org: bitcoin
       github-repo: bitcoin
       latestRelease: true
+  citadel:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: citadel
+      gitlabProjectId: "48888641"
+      tag: true
   minibolt:
     uses: ./.github/workflows/check-release-template.yml
     with:
