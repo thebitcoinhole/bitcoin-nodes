@@ -119,6 +119,14 @@ axios
                     latestReleaseDate = `${months[parseInt(match[1]) - 1]} ${match[2]}, ${2000 + parseInt(match[3])}`;
                 }
             }
+        } else if (itemId.startsWith("nodl-")) {
+            const line = lines[0]
+            const regex = /^([\d.]+) -/;
+            const match = line.match(regex);
+            if (match) {
+                latestVersion = "v" + match[1];
+                latestReleaseDate = today();
+            }
         } else {
             // Find the first line starting with "##"
             const regex = /^## \[([\d.]+)\] \(([^)]+)\)/;

@@ -120,7 +120,7 @@
   },
   "firmware": {
     "firmware-name": {
-      "value": "-"
+      "value": "nodel UI"
     },
     "latest-version": {
       "value": "?"
@@ -129,7 +129,15 @@
       "value": "?"
     },
     "release-notes": {
-      "value": "?"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/blob/nodl-one/www/changelog.txt?ref_type=heads"
+        }
+      ]
     },
     "source-available": {
       "value": "YES",

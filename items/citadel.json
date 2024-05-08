@@ -146,7 +146,15 @@
       "value": "?"
     },
     "release-notes": {
-      "value": "?"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://gitlab.com/nirvati/citadel/lts/core/-/blob/stable/info.json?ref_type=heads"
+        }
+      ]
     },
     "source-available": {
       "value": "YES",

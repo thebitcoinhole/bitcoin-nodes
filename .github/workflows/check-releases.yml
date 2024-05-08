@@ -43,6 +43,23 @@ jobs:
       item-id: mynode-premium
       twitter-enabled: false
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
+  nodl-dojo:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: nodl-dojo
+      changelog-url: https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-dojo/www/changelog.txt?ref_type=heads
+  nodl-one:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: nodl-one
+      twitter-enabled: false
+      changelog-url: https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-one/www/changelog.txt?ref_type=heads
+  nodl-two:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: nodl-two
+      twitter-enabled: false
+      changelog-url: https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-two/www/changelog.txt?ref_type=heads
   parmanode:
     uses: ./.github/workflows/check-release-template.yml
     with:
