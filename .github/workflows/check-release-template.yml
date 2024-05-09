@@ -125,6 +125,9 @@ jobs:
       run: |
         node update-release.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }} "${{ needs.fetch-release.outputs.releaseDate }}"
 
+    - name: Git Diff
+      run: git diff
+  
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v6.0.2
       id: create-pull-request
