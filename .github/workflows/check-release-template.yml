@@ -42,6 +42,10 @@ on:
         required: false
         default: "null"
         type: string
+      allReleasesExclude:
+        required: false
+        default: "null"
+        type: string
 
 jobs:
   fetch-release:
