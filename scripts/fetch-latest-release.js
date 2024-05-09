@@ -7,13 +7,14 @@ const changelogUrl = process.argv[3];
 const githubOwner = process.argv[4];
 const githubRepo = process.argv[5];
 const gitlabProjectId = process.argv[6];
-const githubApiKey = process.argv[7];
-const gitlabApiKey = process.argv[8];
-const tag = process.argv[9];
-const latestRelease = process.argv[10];
-const allReleases = process.argv[11];
-const allReleasesInclude = process.argv[12];
-const allReleasesExclude = process.argv[13];
+const tag = process.argv[7];
+const latestRelease = process.argv[8];
+const allReleases = process.argv[9];
+const allReleasesInclude = process.argv[10];
+const allReleasesExclude = process.argv[11];
+
+const githubApiKey = process.env.GITHUB_TOKEN
+const gitlabApiKey = process.env.GITLAB_TOKEN
 
 var headers = {
     Accept: 'application/vnd.github.v3+json',
