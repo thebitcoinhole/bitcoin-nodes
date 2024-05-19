@@ -40,8 +40,7 @@
       "value": "-"
     },
     "github": {
-      "value": "ronindojo",
-      "url": "https://code.samourai.io/ronindojo"
+      "value": "-"
     }
   },
   "communities": {
@@ -50,7 +49,8 @@
       "url": "https://t.me/RoninDojoNode"
     },
     "reddit": {
-      "value": "-"
+      "value": "RoninDojoNode",
+      "url": "https://reddit.com/user/RoninDojoNode"
     }
   },
   "payment-methods": {
@@ -183,8 +183,8 @@
       "flag": "positive",
       "links": [
         {
-          "title": "Source Code",
-          "url": "https://code.samourai.io/ronindojo/RoninOS"
+          "title": "Source Code (Tor)",
+          "url": "http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin"
         }
       ]
     },
@@ -201,8 +201,8 @@
       "supported": false,
       "links": [
         {
-          "title": "License",
-          "url": "https://code.samourai.io/ronindojo/RoninOS/-/blob/master/LICENSE.txt"
+          "title": "License (Tor)",
+          "url": "http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/RoninOS/src/branch/master/LICENSE.txt"
         }
       ]
     },
