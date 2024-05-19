@@ -1,11 +1,14 @@
 {
-  "id": "ronin-dojo-tanto",
-  "name": "Tanto",
-  "full-name": "Ronin Dojo Tanto",
-  "purchasable": true,
+  "id": "ronin-dojo",
+  "name": "Ronin Dojo",
+  "purchasable": false,
+  "buildable": true,
   "basic-information": {
     "price": {
-      "value": "$549"
+      "value": "$240",
+      "texts": [
+        "Estmated price to build a Raspberry Pi 4"
+      ]
     },
     "year": {
       "value": "2022"
@@ -52,69 +55,106 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
+      "value": "-",
+      "supported": false
     },
     "btc-lightning": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
+      "value": "-",
+      "supported": false
     },
     "alt-coins": {
-      "value": "NO",
+      "value": "-",
       "supported": false
     },
     "credit-debit-card": {
-      "value": "YES",
-      "supported": true
+      "value": "-",
+      "supported": false
     }
   },
   "hardware": {
     "form-factor": {
-      "value": "Box"
+      "value": "DIY",
+      "links": [
+        {
+          "title": "Community Custom Builds",
+          "url": "https://wiki.ronindojo.io/en/extras/community-custom-builds"
+        }
+      ]
     },
     "warranty": {
-      "value": "?",
+      "value": "-",
       "supported": false
     },
     "weight": {
-      "value": "1.1kg / 38.8oz"
+      "value": "-"
     },
     "dimensions": {
-      "value": "14.2 x 12 x 4 cm"
+      "value": "-"
     },
     "cpu": {
-      "value": "Hexa-Core Rockchip RK3399"
+      "value": "-"
     },
     "ram": {
-      "value": "4 GB"
+      "value": "4/8 GB",
+      "texts": [
+        "Raspberry Pi 4. Pick 8 GB RAM for maximum performance.",
+        "ROCK64. Supports up to 4GB 1600MHz LPDDR3 memory.",
+        "RockPro64. Supports up to 4GB of dual-channel LPDDR4 memory.",
+        "RockPi 4. Supports up to 4GB LPDDR4 3200Mb/s RAM."
+      ]
     },
     "storage": {
-      "value": "1/2 TB"
+      "value": "1+ TB",
+      "texts": [
+        "1 TB or more is recommended"
+      ]
     },
     "ethernet": {
       "value": "Gigabit Ethernet",
-      "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "supported": true
     },
     "wifi": {
-      "value": "802.11ac",
+      "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless",
+        "ROCK64. No wifi support unless you buy a expansion module.",
+        "RockPro64. No wifi support unless you buy a expansion module.",
+        "RockPi 4. On board 802.11 ac wifi offers 2.4G & 5G WLAN connectivity"
+      ]
     },
     "hdmi": {
-      "value": "NO",
-      "supported": false
+      "value": "YES/NO",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. 2x micro-HDMI® ports (up to 4kp60 supported)",
+        "ROCK64. No HDMI",
+        "RockPro64. 1 HDMI port",
+        "RockPi 4. 1 HDMI port"
+      ]
     },
     "usb": {
-      "value": "2x USB 2.0 / 1x USB 3.0",
+      "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2 USB 3.0 ports; 2 USB 2.0 ports.",
+        "ROCK64. 2x USB 2.0 Host. 1x USB 3.0 Host",
+        "RockPro64. 2x USB 2.0 Host. 1x USB 3.0 Host. 1x USB-C Host (With video out)",
+        "RockPi 4. 1x USB 3.0 OTG. 1x USB 3.0 HOST. 2x USB 2.0 HOST"
+      ]
     },
     "bluetooth": {
-      "value": "Bluetooth 5.0",
-      "supported": true
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. Bluetooth 5.0",
+        "ROCK64. No bluetooth support unless you buy a expansion module",
+        "RockPro64. No bluetooth support unless you buy a expansion module",
+        "RockPi 4. Bluetooh 5.0"
+      ]
     }
   },
   "firmware": {
@@ -133,7 +173,7 @@
       "links": [
         {
           "title": "Releases Notes",
-          "url": "https://code.samourai.io/ronindojo/RoninOS/-/tags"
+          "url": "https://blog.ronindojo.io/tag/releases/"
         }
       ]
     },
@@ -173,44 +213,60 @@
   },
   "platforms": {
     "windows": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "macos": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "linux": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "pc-disk-image": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "virtual-machine": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "raspberry-pi-4": {
-      "value": "-",
-      "supported": false
+      "value": "YES (Not Official support)",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Raspberry Pi: Upgrading to RoninOS v2.0.0",
+          "url": "https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry"
+        }
+      ]
     },
     "raspberry-pi-5": {
-      "value": "-",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "rock-64": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "rock-pro-64": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "rockpi-4": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "bitcoin-apps": {
