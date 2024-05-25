@@ -13,12 +13,14 @@ jobs:
       github-org: bitcoin
       github-repo: bitcoin
       latestRelease: true
+      social-enabled: true
   citadel:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: citadel
       gitlabProjectId: "48888641"
       tag: true
+      social-enabled: true
   minibolt:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -26,11 +28,13 @@ jobs:
       github-org: minibolt-guide
       github-repo: minibolt
       latestRelease: true
+      social-enabled: true
   mynode-community-edition:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-community-edition
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
+      social-enabled: true
   mynode-model-one:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -55,6 +59,7 @@ jobs:
       item-id: nodl-one-mark-2
       twitter-enabled: false
       changelog-url: https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-one/www/changelog.txt?ref_type=heads
+      social-enabled: true
   nodl-two:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -66,6 +71,7 @@ jobs:
     with:
       item-id: parmanode
       changelog-url: https://raw.githubusercontent.com/ArmanTheParman/Parmanode/master/changelog
+      social-enabled: true
   raspiblitz:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -73,6 +79,7 @@ jobs:
       github-org: raspiblitz
       github-repo: raspiblitz
       latestRelease: true
+      social-enabled: true
   raspibolt:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -80,6 +87,7 @@ jobs:
       github-org: raspibolt
       github-repo: raspibolt
       latestRelease: true
+      social-enabled: true
   start9-diy:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -87,6 +95,7 @@ jobs:
       github-org: Start9Labs
       github-repo: start-os
       latestRelease: true
+      social-enabled: true
   start9-server-one:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -111,6 +120,7 @@ jobs:
       github-repo: umbrel
       allReleases: true
       allReleasesInclude: "umbrel"
+      social-enabled: true
   umbrel-home:
     uses: ./.github/workflows/check-release-template.yml
     with:
