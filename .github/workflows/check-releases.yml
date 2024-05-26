@@ -39,32 +39,27 @@ jobs:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-model-one
-      twitter-enabled: false
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
   mynode-model-two:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-model-two
-      twitter-enabled: false
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
   mynode-premium:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: mynode-premium
-      twitter-enabled: false
       changelog-url: https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG
   nodl-one-mark-2:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: nodl-one-mark-2
-      twitter-enabled: false
       changelog-url: https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-one/www/changelog.txt?ref_type=heads
       social-enabled: true
   nodl-two:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: nodl-two
-      twitter-enabled: false
       changelog-url: https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-two/www/changelog.txt?ref_type=heads
   parmanode:
     uses: ./.github/workflows/check-release-template.yml
@@ -100,7 +95,6 @@ jobs:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: start9-server-one
-      twitter-enabled: false
       github-org: Start9Labs
       github-repo: start-os
       latestRelease: true
@@ -108,7 +102,6 @@ jobs:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: start9-server-pure
-      twitter-enabled: false
       github-org: Start9Labs
       github-repo: start-os
       latestRelease: true
@@ -125,7 +118,6 @@ jobs:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: umbrel-home
-      twitter-enabled: false
       github-org: getumbrel
       github-repo: umbrel
       allReleases: true
