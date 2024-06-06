@@ -155,17 +155,17 @@
       ]
     },
     "open-source": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "license": {
-      "value": "Start9 Non-Commercial License",
+      "value": "MIT",
       "supported": false,
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/Start9Labs/start-os/blob/master/LICENSE.md"
+          "url": "https://github.com/Start9Labs/start-os/blob/master/LICENSE"
         }
       ]
     },
