@@ -115,6 +115,9 @@
     "firmware-name": {
       "value": "Parmanode"
     },
+    "bitcoin-only": {
+      "value": "YES"
+    },
     "latest-version": {
       "value": "v3.38.1"
     },

@@ -137,6 +137,9 @@
         "- Blockchain explorer: mempool.space"
       ]
     },
+    "bitcoin-only": {
+      "value": "YES"
+    },
     "latest-version": {
       "value": "-"
     },

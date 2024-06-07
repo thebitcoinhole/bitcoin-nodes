@@ -132,6 +132,9 @@
     "firmware-name": {
       "value": "umbrelOS"
     },
+    "bitcoin-only": {
+      "value": "NO"
+    },
     "latest-version": {
       "value": "v1.1.2"
     },

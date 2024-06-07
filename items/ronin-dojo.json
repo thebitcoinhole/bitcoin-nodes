@@ -161,6 +161,9 @@
     "firmware-name": {
       "value": "RoninOS"
     },
+    "bitcoin-only": {
+      "value": "YES"
+    },
     "latest-version": {
       "value": "v2.5.0"
     },

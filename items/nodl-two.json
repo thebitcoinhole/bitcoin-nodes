@@ -125,6 +125,9 @@
     "firmware-name": {
       "value": "nodl UI"
     },
+    "bitcoin-only": {
+      "value": "YES"
+    },
     "latest-version": {
       "value": "v1.3.10"
     },

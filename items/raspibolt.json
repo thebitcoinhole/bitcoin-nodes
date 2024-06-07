@@ -140,6 +140,9 @@
     "firmware-name": {
       "value": "RaspiBolt"
     },
+    "bitcoin-only": {
+      "value": "YES"
+    },
     "latest-version": {
       "value": "v3"
     },

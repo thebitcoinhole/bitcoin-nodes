@@ -115,6 +115,9 @@
     "firmware-name": {
       "value": "Bitcoin Core"
     },
+    "bitcoin-only": {
+      "value": "YES"
+    },
     "latest-version": {
       "value": "v27.0"
     },

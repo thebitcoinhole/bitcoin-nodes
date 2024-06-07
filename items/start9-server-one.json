@@ -130,6 +130,9 @@
         "For developers and system administrators, StartOS provides huge time savings over traditional Linux workflows. For the rest of us, and for the first time since the arrival of the Internet, it makes digital autonomy possible."
       ]
     },
+    "bitcoin-only": {
+      "value": "NO"
+    },
     "latest-version": {
       "value": "v0.3.5.1"
     },

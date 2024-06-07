@@ -116,6 +116,9 @@
     "firmware-name": {
       "value": "MiniBolt"
     },
+    "bitcoin-only": {
+      "value": "YES"
+    },
     "latest-version": {
       "value": "v2"
     },

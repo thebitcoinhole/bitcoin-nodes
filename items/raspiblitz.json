@@ -139,6 +139,9 @@
     "firmware-name": {
       "value": "RaspiBlitz"
     },
+    "bitcoin-only": {
+      "value": "YES"
+    },
     "latest-version": {
       "value": "v1.11.0"
     },

@@ -139,6 +139,9 @@
     "firmware-name": {
       "value": "Citadel"
     },
+    "bitcoin-only": {
+      "value": "NO"
+    },
     "latest-version": {
       "value": "v0.3.7"
     },
