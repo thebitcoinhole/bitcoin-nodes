@@ -234,6 +234,11 @@ function ignoreVersion(itemId, latestVersion) {
         return true
     }
 
+    // umbrelOS 1.2 Beta 1
+    if (latestVersion.toLowerCase().includes("beta")) {
+        return true
+    }
+
     // Ignore if it ends with "-rc", "-rc1", "-rc2", etc.
     pattern = /-rc\d*$/;
     if (pattern.test(latestVersion)) {
