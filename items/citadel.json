@@ -135,6 +135,25 @@
       ]
     }
   },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "?",
+      "supported": false
+    },
+    "btc-regtest": {
+      "value": "?",
+      "supported": false
+    },
+    "btc-signet": {
+      "value": "?",
+      "supported": false
+    }
+  },
   "firmware": {
     "firmware-name": {
       "value": "Citadel"
@@ -278,6 +297,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "fulcrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "samourai-server": {
       "value": "YES",
       "supported": true,
@@ -305,6 +329,10 @@
     }
   },
   "other-features": {
+    "prune-node": {
+      "value": "?",
+      "supported": false
+    },
     "official-marketplace": {
       "value": "YES",
       "supported": true,

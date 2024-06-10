@@ -157,6 +157,28 @@
       ]
     }
   },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-regtest": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-signet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "firmware": {
     "firmware-name": {
       "value": "RoninOS"
@@ -306,7 +328,27 @@
     "electrum-server": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "Electrs"
+      ],
+      "links": [
+        {
+          "title": "Choosing Your Bitcoin Indexer",
+          "url": "https://blog.ronindojo.io/choosing-your-bitcoin-indexer/"
+        }
+      ]
+    },
+    "fulcrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Choosing Your Bitcoin Indexer",
+          "url": "https://blog.ronindojo.io/choosing-your-bitcoin-indexer/"
+        }
+      ]
     },
     "samourai-server": {
       "value": "YES",
@@ -335,6 +377,10 @@
     }
   },
   "other-features": {
+    "prune-node": {
+      "value": "?",
+      "supported": false
+    },
     "official-marketplace": {
       "value": "NO",
       "supported": false,

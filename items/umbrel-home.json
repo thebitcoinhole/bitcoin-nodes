@@ -128,6 +128,28 @@
       "supported": true
     }
   },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-signet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "firmware": {
     "firmware-name": {
       "value": "umbrelOS"
@@ -238,12 +260,18 @@
     "block-explorer": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
     },
     "mempool-visualizer": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
     },
     "coinjoin": {
       "value": "YES",
@@ -261,7 +289,15 @@
     "electrum-server": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "Electrs"
+      ]
+    },
+    "fulcrum-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "samourai-server": {
       "value": "YES",
@@ -290,6 +326,11 @@
     }
   },
   "other-features": {
+    "prune-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "official-marketplace": {
       "value": "YES",
       "supported": true,

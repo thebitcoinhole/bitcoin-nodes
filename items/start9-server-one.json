@@ -122,6 +122,28 @@
       "supported": false
     }
   },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-regtest": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-signet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "firmware": {
     "firmware-name": {
       "value": "StartOS",
@@ -236,12 +258,18 @@
     "block-explorer": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "Mempool"
+      ]
     },
     "mempool-visualizer": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "Mempool"
+      ]
     },
     "coinjoin": {
       "value": "YES",
@@ -257,6 +285,14 @@
       "flag": "positive"
     },
     "electrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Electrs"
+      ]
+    },
+    "fulcrum-server": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
@@ -288,6 +324,11 @@
     }
   },
   "other-features": {
+    "prune-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "official-marketplace": {
       "value": "YES",
       "supported": true,

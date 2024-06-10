@@ -136,6 +136,34 @@
       ]
     }
   },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "RaspiBolt on Testnet",
+          "url": "https://raspibolt.org/guide/bonus/bitcoin/testnet.html"
+        }
+      ]
+    },
+    "btc-regtest": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-signet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "firmware": {
     "firmware-name": {
       "value": "RaspiBolt"
@@ -256,12 +284,32 @@
     "block-explorer": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockchain explorer",
+          "url": "https://raspibolt.org/guide/bitcoin/blockchain-explorer.html"
+        },
+        {
+          "title": "Mempool",
+          "url": "https://raspibolt.org/guide/bonus/bitcoin/mempool.html"
+        }
+      ]
     },
     "mempool-visualizer": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BTC RPC Explorer",
+          "url": "https://raspibolt.org/guide/bitcoin/blockchain-explorer.html"
+        },
+        {
+          "title": "Mempool",
+          "url": "https://raspibolt.org/guide/bonus/bitcoin/mempool.html"
+        }
+      ]
     },
     "coinjoin": {
       "value": "YES",
@@ -282,7 +330,24 @@
     "electrum-server": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Electrs",
+          "url": "https://raspibolt.org/guide/bitcoin/electrum-server.html"
+        }
+      ]
+    },
+    "fulcrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Fulcrum server",
+          "url": "https://raspibolt.org/guide/bonus/bitcoin/fulcrum.html"
+        }
+      ]
     },
     "samourai-server": {
       "value": "YES",
@@ -323,6 +388,10 @@
     }
   },
   "other-features": {
+    "prune-node": {
+      "value": "?",
+      "supported": false
+    },
     "official-marketplace": {
       "value": "NO",
       "supported": false,

@@ -126,6 +126,28 @@
       ]
     }
   },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-signet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "firmware": {
     "firmware-name": {
       "value": "-",
@@ -240,6 +262,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "fulcrum-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "samourai-server": {
       "value": "NO",
       "supported": false,
@@ -267,6 +294,11 @@
     }
   },
   "other-features": {
+    "prune-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "official-marketplace": {
       "value": "NO",
       "supported": false,

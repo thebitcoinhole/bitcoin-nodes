@@ -111,6 +111,28 @@
       "supported": true
     }
   },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-regtest": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-signet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "firmware": {
     "firmware-name": {
       "value": "Parmanode"
@@ -253,6 +275,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "fulcrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "samourai-server": {
       "value": "NO",
       "supported": false,
@@ -280,6 +307,11 @@
     }
   },
   "other-features": {
+    "prune-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "official-marketplace": {
       "value": "NO",
       "supported": false,

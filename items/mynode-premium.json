@@ -137,6 +137,28 @@
       ]
     }
   },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-signet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "firmware": {
     "firmware-name": {
       "value": "MyNode"
@@ -257,30 +279,56 @@
     "block-explorer": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
     },
     "mempool-visualizer": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
     },
     "coinjoin": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "texts": [
-        "JoinMarket"
+      "links": [
+        {
+          "title": "JoinMarket",
+          "url": "https://mynodebtc.github.io/coinjoin/joinmarket.html"
+        }
       ]
     },
     "btcpay-server": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BTCPay Server",
+          "url": "https://mynodebtc.github.io/btcpay-server/setup.html"
+        }
+      ]
     },
     "electrum-server": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Electrum Server",
+          "url": "https://mynodebtc.github.io/electrum/electrum.html"
+        }
+      ]
+    },
+    "fulcrum-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "samourai-server": {
       "value": "NO",
@@ -290,7 +338,13 @@
     "specter-desktop": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Specter",
+          "url": "https://mynodebtc.github.io/multisig/specter.html"
+        }
+      ]
     },
     "electrum-wallet": {
       "value": "NO",
@@ -309,6 +363,11 @@
     }
   },
   "other-features": {
+    "prune-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "official-marketplace": {
       "value": "YES",
       "supported": true,

@@ -112,6 +112,32 @@
       "supported": true
     }
   },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "MiniBolt on Testnet",
+          "url": "https://v2.minibolt.info/bonus-guides/bitcoin/minibolt-on-testnet"
+        }
+      ]
+    },
+    "btc-regtest": {
+      "value": "?",
+      "supported": false
+    },
+    "btc-signet": {
+      "value": "?",
+      "supported": false
+    }
+  },
   "firmware": {
     "firmware-name": {
       "value": "MiniBolt"
@@ -232,12 +258,24 @@
     "block-explorer": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockchain explorer: BTC RPC Explorer",
+          "url": "https://v2.minibolt.info/itcoin/bitcoin/blockchain-explorer"
+        }
+      ]
     },
     "mempool-visualizer": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockchain explorer: BTC RPC Explorer",
+          "url": "https://v2.minibolt.info/itcoin/bitcoin/blockchain-explorer"
+        }
+      ]
     },
     "coinjoin": {
       "value": "NO",
@@ -261,8 +299,19 @@
       "flag": "positive",
       "links": [
         {
-          "title": "electrum-server",
+          "title": "Electrs",
           "url": "https://v2.minibolt.info/bonus-guides/bitcoin/electrs"
+        }
+      ]
+    },
+    "fulcrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Fulcrum server",
+          "url": "https://v2.minibolt.info/itcoin/bitcoin/electrum-server"
         }
       ]
     },
@@ -293,6 +342,10 @@
     }
   },
   "other-features": {
+    "prune-node": {
+      "value": "?",
+      "supported": false
+    },
     "official-marketplace": {
       "value": "NO",
       "supported": false,
