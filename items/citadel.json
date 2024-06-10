@@ -88,9 +88,9 @@
       "value": "-"
     },
     "ram": {
-      "value": "4/8 GB",
+      "value": "8 GB",
       "texts": [
-        "Raspberry Pi 4/5. Pick 8 GB RAM for maximum performance."
+        "Raspberry Pi 4/5. 8 GB RAM is recommended."
       ]
     },
     "storage": {
