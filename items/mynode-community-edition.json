@@ -149,14 +149,20 @@
       "flag": "positive"
     },
     "btc-regtest": {
-      "value": "YES",
+      "value": "Manually",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral",
+      "texts": [
+        "You need to edit the Bitcoin config file"
+      ]
     },
     "btc-signet": {
-      "value": "YES",
+      "value": "Manually",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral",
+      "texts": [
+        "You need to edit the Bitcoin config file"
+      ]
     }
   },
   "firmware": {

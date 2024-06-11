@@ -142,16 +142,28 @@
       "flag": "positive"
     },
     "btc-testnet": {
-      "value": "?",
-      "supported": false
+      "value": "Manually",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Command line flag during install"
+      ]
     },
     "btc-regtest": {
-      "value": "?",
-      "supported": false
+      "value": "Manually",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Command line flag during install"
+      ]
     },
     "btc-signet": {
-      "value": "?",
-      "supported": false
+      "value": "Manually",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Command line flag during install"
+      ]
     }
   },
   "firmware": {
@@ -330,8 +342,9 @@
   },
   "other-features": {
     "prune-node": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "official-marketplace": {
       "value": "YES",
