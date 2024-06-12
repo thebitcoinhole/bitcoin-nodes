@@ -205,6 +205,11 @@ axios
             process.exit(1);
         }
 
+        if (!isValidDate(latestReleaseDate)) {
+            console.error('Invalid release data found:' + latestReleaseDate);
+            process.exit(1);
+        }
+
         // Iterate through release assets and collect their file names
         // assets.forEach((asset) => {
         //     assetFileNames.push(asset.name);
@@ -225,6 +230,11 @@ axios
 
 function isValidVersion(str) {
     const regex = /^v\d+(\.\d+)*$/;
+    return regex.test(str);
+}
+
+function isValidDate(str) {
+    const regex = /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \d{2}, \d{4}$/;
     return regex.test(str);
 }
 
