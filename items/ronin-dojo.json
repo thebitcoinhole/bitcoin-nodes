@@ -415,6 +415,11 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "tailscale": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
 }

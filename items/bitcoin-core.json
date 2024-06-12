@@ -349,6 +349,11 @@
           "url": "https://github.com/bitcoin/bitcoin/blob/master/doc/tor.md"
         }
       ]
+    },
+    "tailscale": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
 }
