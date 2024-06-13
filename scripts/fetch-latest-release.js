@@ -16,6 +16,10 @@ const allReleasesExclude = process.argv[11];
 const githubApiKey = process.env.GITHUB_TOKEN
 const gitlabApiKey = process.env.GITLAB_TOKEN
 
+const shortMonths = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+];
+
 var headers = {
     Accept: 'application/vnd.github.v3+json',
     Authorization: `Bearer ${githubApiKey}`,
@@ -124,11 +128,7 @@ axios
                 regex = /^- Released ([\d.]+)\/([\d.]+)\/([\d.]+)/;
                 if (match) {
                     match = line.match(regex);
-                    const months = [
-                        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-                    ];
-                    latestReleaseDate = `${months[parseInt(match[1]) - 1]} ${match[2]}, ${2000 + parseInt(match[3])}`;
+                    latestReleaseDate = `${shortMonths[parseInt(match[1]) - 1]} ${match[2]}, ${2000 + parseInt(match[3])}`;
                 }
             }
         } else if (itemId.startsWith("nodl-")) {
@@ -140,28 +140,8 @@ axios
                 latestReleaseDate = today();
             }
         } else {
-            // Find the first line starting with "##"
-            const regex = /^## \[([\d.]+)\] \(([^)]+)\)/;
-            for (const line of lines) {
-                const match = line.match(regex);
-                if (match) {
-                    latestVersion = match[1];
-                    latestReleaseDate = formatDate(match[2]);
-                    break;
-                }
-            }
-
-            if (latestVersion == undefined || latestReleaseDate == undefined) {
-                const regex = /^## ([\d.]+) \[([^)]+)\]/;
-                for (const line of lines) {
-                    const match = line.match(regex);
-                    if (match) {
-                        latestVersion = match[1];
-                        latestReleaseDate = formatDate(match[2]);
-                        break;
-                    }
-                }
-            }
+            console.error("Date parser not found")
+            process.exit(1);
         }
         
         if (latestVersion == undefined) {
@@ -306,33 +286,3 @@ function checkRelease(itemId, latestVersion, latestReleaseDate) {
         }
     });
 }
-
-
-function formatDate(inputDate) {
-    // Define months for formatting
-    const months = [
-      "January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
-    ];
-  
-    // Split the input date string into parts
-    const parts = inputDate.match(/(\d+)\w+\s(\w+)\s(\d+)/);
-  
-    if (parts && parts.length === 4) {
-      const day = parseInt(parts[1]);
-      const monthIndex = months.indexOf(parts[2]);
-      const year = parseInt(parts[3]);
-  
-      if (monthIndex !== -1) {
-        // Create a JavaScript Date object
-        const date = new Date(year, monthIndex, day);
-  
-        // Format the date in the desired output format (e.g., "Jul 27, 2023")
-        return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
-      }
-    }
-  
-    // Return the original input if parsing fails
-    return inputDate;
-}
-
