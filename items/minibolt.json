@@ -293,12 +293,19 @@
       "flag": "positive",
       "links": [
         {
-          "title": "Fulcrum",
-          "url": "https://v2.minibolt.info/bitcoin/bitcoin/electrum-server"
-        }
-        {
           "title": "Electrs",
           "url": "https://v2.minibolt.info/bonus-guides/bitcoin/electrs"
+        }
+      ]
+    },
+    "fulcrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Fulcrum server",
+          "url": "https://v2.minibolt.info/itcoin/bitcoin/electrum-server"
         }
       ]
     },
