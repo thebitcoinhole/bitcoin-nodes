@@ -83,24 +83,24 @@ All the features supported:
 | Basic Information | basic-information | Price | price |
 | Basic Information | basic-information | Discounts | discounts |
 | Basic Information | basic-information | Launch Year | year |
-| Basic Information | basic-information | Form Factor | form-factor |
-| Company | company | Brand | brand |
-| Company | company | Headquarters | headquarters |
-| Company | company | Website | website |
-| Company | company | Blog | blog |
-| Company | company | X (Twitter) | twitter |
-| Company | company | Nostr | nostr |
-| Company | company | YouTube | youtube |
-| Company | company | GitHub / GitLab | github |
+| Company / Project | company | Brand | brand |
+| Company / Project | company | Headquarters / Location | headquarters |
+| Company / Project | company | Website | website |
+| Company / Project | company | Blog | blog |
+| Company / Project | company | X (Twitter) | twitter |
+| Company / Project | company | Nostr | nostr |
+| Company / Project | company | YouTube | youtube |
+| Company / Project | company | GitHub / GitLab | github |
 | Communities | communities | Telegram | telegram |
 | Communities | communities | Reddit | reddit |
 | Payment Methods to buy the node | payment-methods | BTC On Chain | btc-on-chain |
 | Payment Methods to buy the node | payment-methods | BTC Lightning | btc-lightning |
 | Payment Methods to buy the node | payment-methods | Alt Coins | alt-coins |
 | Payment Methods to buy the node | payment-methods | Credit/Debit Card | credit-debit-card |
-| Size & Materials | size-materials | Warranty | warranty |
-| Size & Materials | size-materials | Weight | weight |
-| Size & Materials | size-materials | Dimensions | dimensions |
+| Hardware | hardware | Form Factor | form-factor |
+| Hardware | hardware | Warranty | warranty |
+| Hardware | hardware | Weight | weight |
+| Hardware | hardware | Dimensions | dimensions |
 | Hardware | hardware | CPU | cpu |
 | Hardware | hardware | RAM | ram |
 | Hardware | hardware | Storage | storage |
@@ -109,12 +109,17 @@ All the features supported:
 | Hardware | hardware | HDMI | hdmi |
 | Hardware | hardware | USB | usb |
 | Hardware | hardware | Bluetooth | bluetooth |
+| Networks | networks | Bitcoin Mainnet | btc-mainnet |
+| Networks | networks | Bitcoin Testnet | btc-testnet |
+| Networks | networks | Bitcoin Regtest | btc-regtest |
+| Networks | networks | Bitcoin signet | btc-signet |
 | Firmware | firmware | Firmware Name | firmware-name |
+| Firmware | firmware | Bitcoin-only | bitcoin-only |
 | Firmware | firmware | Latest Version | latest-version |
 | Firmware | firmware | Latest Release Date | latest-release-date |
 | Firmware | firmware | Release Notes | release-notes |
 | Firmware | firmware | Source-available | source-available |
-| Firmware | firmware | Open Source | open-source |
+| Firmware | firmware | Free & Open Source (FOSS) | open-source |
 | Firmware | firmware | License | license |
 | Firmware | firmware | Reproducible Builds | reproducible-builds |
 | Platforms | platforms | Windows | windows |
@@ -134,14 +139,20 @@ All the features supported:
 | Bitcoin Apps | bitcoin-apps | CoinJoin | coinjoin |
 | Bitcoin Apps | bitcoin-apps | BTCPay Server | btcpay-server |
 | Bitcoin Apps | bitcoin-apps | Electrum Server | electrum-server |
+| Bitcoin Apps | bitcoin-apps | Fulcrum Server | fulcrum-server |
 | Bitcoin Apps | bitcoin-apps | Samourai Server | samourai-server |
 | Bitcoin Apps | bitcoin-apps | Specter Desktop | specter-desktop |
+| Bitcoin Apps | bitcoin-apps | Electrum Wallet | electrum-wallet |
+| Bitcoin Apps | bitcoin-apps | Sparrow Wallet | sparrow-wallet |
+| Bitcoin Apps | bitcoin-apps | Mutiny Wallet | mutiny-wallet |
+| Other Features | other-features | Prune Node Support | prune-node |
 | Other Features | other-features | Official Marketplace | official-marketplace |
 | Other Features | other-features | Thirdparty Marketplace | thirdparty-marketplace |
 | Other Features | other-features | Backup / Restore | backup-restore |
 | Other Features | other-features | Health Checks | health-checks |
 | Other Features | other-features | SSL | ssl |
 | Other Features | other-features | Tor | tor |
+| Other Features | other-features | Tailscale | tailscale |
 
 ## Website
 
