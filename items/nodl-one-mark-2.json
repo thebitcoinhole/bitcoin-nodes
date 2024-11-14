@@ -5,7 +5,7 @@
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "€529"
+      "value": "€499"
     },
     "year": {
       "value": "2024"
@@ -92,7 +92,7 @@
       "value": "4 GB"
     },
     "storage": {
-      "value": "1 TB"
+      "value": "1/2 TB"
     },
     "ethernet": {
       "value": "Gigabit Ethernet",
