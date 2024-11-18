@@ -387,9 +387,9 @@
       "flag": "positive"
     },
     "tailscale": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   }
 }
