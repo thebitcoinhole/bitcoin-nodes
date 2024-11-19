@@ -14,6 +14,14 @@ jobs:
       github-repo: bitcoin
       latestRelease: true
       social-enabled: true
+  bitcoin-knots:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: bitcoin-knots
+      github-org: bitcoinknots
+      github-repo: bitcoin
+      latestRelease: true
+      social-enabled: true
   citadel:
     uses: ./.github/workflows/check-release-template.yml
     with:
