@@ -247,13 +247,20 @@
     }
   },
   "bitcoin-apps": {
-    "bitcoin-node": {
+    "bitcoin-core": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "texts": [
-        "Bitcoin Core, Bitcoin Knots, Libre Relay"
-      ]
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "libre-relay": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "lightning-node": {
       "value": "YES",
