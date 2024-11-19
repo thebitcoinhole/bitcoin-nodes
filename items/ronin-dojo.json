@@ -325,13 +325,10 @@
       "supported": false,
       "flag": "negative"
     },
-    "electrum-server": {
+    "electrs": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
-      "texts": [
-        "Electrs"
-      ],
       "links": [
         {
           "title": "Choosing Your Bitcoin Indexer",
@@ -339,7 +336,12 @@
         }
       ]
     },
-    "fulcrum-server": {
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
       "value": "YES",
       "supported": true,
       "flag": "positive",

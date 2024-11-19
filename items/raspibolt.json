@@ -327,7 +327,7 @@
       "supported": false,
       "flag": "negative"
     },
-    "electrum-server": {
+    "electrs": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
@@ -338,7 +338,12 @@
         }
       ]
     },
-    "fulcrum-server": {
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
       "value": "YES",
       "supported": true,
       "flag": "positive",

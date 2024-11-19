@@ -273,12 +273,17 @@
       "supported": false,
       "flag": "negative"
     },
-    "electrum-server": {
+    "electrs": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
     },
-    "fulcrum-server": {
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

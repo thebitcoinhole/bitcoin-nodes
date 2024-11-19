@@ -285,15 +285,17 @@
       "supported": true,
       "flag": "positive"
     },
-    "electrum-server": {
+    "electrs": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "texts": [
-        "Electrs"
-      ]
+      "flag": "positive"
     },
-    "fulcrum-server": {
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
