@@ -109,12 +109,19 @@ axios
         const lines = body.split('\n');
 
         if (itemId == "parmanode") {
-            const line = lines[0]
             const regex = /^Version ([\d.]+)/;
-            const match = line.match(regex);
-            if (match) {
-                latestVersion = match[1];
-                latestReleaseDate = today();
+            for (const line of lines) {
+                // Skip empty lines and lines starting with #
+                if (line.trim() === "" || line.trim().startsWith("#")) {
+                    continue;
+                }
+            
+                const match = line.match(regex);
+                if (match) {
+                    latestVersion = match[1];
+                    latestReleaseDate = today();
+                    break; // Stop after finding the first valid version line
+                }
             }
         } else if (itemId.startsWith("mynode-")) {
             // === v0.3.25 ===
@@ -165,7 +172,7 @@ axios
 
         // Bitcoin Knots
         latestVersion = latestVersion.replace(/^Bitcoin Knots /, '');
-        latestVersion = latestVersion.replace(/^knots/, '');
+        latestVersion = latestVersion.replace(/knots/, '');
 
         // Umbrel
         latestVersion = latestVersion.replace(/^umbrelOS /, '');
