@@ -73,7 +73,7 @@ jobs:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: parmanode
-      changelog-url: https://raw.githubusercontent.com/ArmanTheParman/Parmanode/master/changelog
+      changelog-url: https://raw.githubusercontent.com/ArmanTheParman/Parmanode/refs/heads/master/changelog.txt
       social-enabled: true
   raspiblitz:
     uses: ./.github/workflows/check-release-template.yml

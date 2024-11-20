@@ -165,6 +165,7 @@ axios
 
         // Bitcoin Knots
         latestVersion = latestVersion.replace(/^Bitcoin Knots /, '');
+        latestVersion = latestVersion.replace(/^knots/, '');
 
         // Umbrel
         latestVersion = latestVersion.replace(/^umbrelOS /, '');
