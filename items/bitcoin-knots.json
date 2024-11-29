@@ -1,7 +1,6 @@
 {
   "id": "bitcoin-knots",
   "name": "Bitcoin Knots",
-  "purchasable": false,
   "installable": true,
   "basic-information": {
     "price": {

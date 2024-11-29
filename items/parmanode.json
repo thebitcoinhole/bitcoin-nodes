@@ -1,7 +1,6 @@
 {
   "id": "parmanode",
   "name": "Parmanode",
-  "purchasable": false,
   "installable": true,
   "basic-information": {
     "price": {

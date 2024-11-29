@@ -1,7 +1,6 @@
 {
   "id": "ronin-dojo",
   "name": "Ronin Dojo",
-  "purchasable": false,
   "buildable": true,
   "basic-information": {
     "price": {

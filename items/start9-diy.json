@@ -1,7 +1,6 @@
 {
   "id": "start9-diy",
   "name": "Start9 DIY",
-  "purchasable": false,
   "buildable": true,
   "basic-information": {
     "price": {

@@ -1,7 +1,6 @@
 {
   "id": "bitcoin-core",
   "name": "Bitcoin Core",
-  "purchasable": false,
   "installable": true,
   "basic-information": {
     "price": {

@@ -1,7 +1,6 @@
 {
   "id": "raspibolt",
   "name": "RaspiBolt",
-  "purchasable": false,
   "buildable": true,
   "basic-information": {
     "price": {

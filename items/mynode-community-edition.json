@@ -2,7 +2,6 @@
   "id": "mynode-community-edition",
   "name": "Community Edition",
   "full-name": "MyNode Community Edition",
-  "purchasable": false,
   "buildable": true,
   "basic-information": {
     "price": {

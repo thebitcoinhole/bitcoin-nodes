@@ -1,7 +1,6 @@
 {
   "id": "minibolt",
   "name": "MiniBolt",
-  "purchasable": false,
   "buildable": true,
   "basic-information": {
     "price": {

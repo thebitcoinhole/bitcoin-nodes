@@ -2,7 +2,6 @@
   "id": "mynode-premium",
   "name": "Premium",
   "full-name": "MyNode Premium",
-  "purchasable": false,
   "buildable": true,
   "basic-information": {
     "price": {
