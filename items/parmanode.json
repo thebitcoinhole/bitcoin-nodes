@@ -276,9 +276,12 @@
       ]
     },
     "coinjoin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "ParmaJoin (JoinMarket)"
+      ]
     },
     "btcpay-server": {
       "value": "YES",
