@@ -4,12 +4,6 @@
   "full-name": "MyNode Community Edition",
   "buildable": true,
   "basic-information": {
-    "price": {
-      "value": "$240",
-      "texts": [
-        "Estmated price to build a Raspberry Pi 4"
-      ]
-    },
     "year": {
       "value": "2019"
     }

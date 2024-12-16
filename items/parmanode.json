@@ -3,9 +3,6 @@
   "name": "Parmanode",
   "installable": true,
   "basic-information": {
-    "price": {
-      "value": "-"
-    },
     "year": {
       "value": "2023"
     }

@@ -4,12 +4,6 @@
   "full-name": "MyNode Premium",
   "buildable": true,
   "basic-information": {
-    "price": {
-      "value": "$339",
-      "texts": [
-        "Estmated price to build a Raspberry Pi 4 + MyNode 'Premium' for a one time fee of $99 which enables extra features"
-      ]
-    },
     "year": {
       "value": "2019"
     }

@@ -4,9 +4,6 @@
   "full-name": "nodl Two",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "€799"
-    },
     "year": {
       "value": "2023"
     }

@@ -4,9 +4,6 @@
   "full-name": "Umbrel Home",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$419"
-    },
     "year": {
       "value": "2024"
     }
