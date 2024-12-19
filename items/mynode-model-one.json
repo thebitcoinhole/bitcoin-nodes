@@ -4,9 +4,6 @@
   "full-name": "MyNode Model One",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$399"
-    },
     "year": {
       "value": "2022"
     }

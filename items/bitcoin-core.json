@@ -3,9 +3,6 @@
   "name": "Bitcoin Core",
   "installable": true,
   "basic-information": {
-    "price": {
-      "value": "-"
-    },
     "year": {
       "value": "2009"
     }

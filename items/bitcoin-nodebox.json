@@ -3,9 +3,6 @@
   "name": "Bitcoin Nodebox",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$350"
-    },
     "year": {
       "value": "2023"
     }

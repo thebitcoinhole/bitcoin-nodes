@@ -3,9 +3,6 @@
   "name": "MiniBolt",
   "buildable": true,
   "basic-information": {
-    "price": {
-      "value": "-"
-    },
     "year": {
       "value": "2022"
     }

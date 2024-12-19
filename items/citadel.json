@@ -3,12 +3,6 @@
   "name": "Citadel",
   "buildable": true,
   "basic-information": {
-    "price": {
-      "value": "$346",
-      "texts": [
-        "Estmated price to build a Raspberry Pi 5 (8GB RAM, 2TB SSD)"
-      ]
-    },
     "year": {
       "value": "2021"
     }
