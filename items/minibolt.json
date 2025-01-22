@@ -351,11 +351,6 @@
           "url": "https://v2.minibolt.info/bitcoin/bitcoin/desktop-wallet"
         }
       ]
-    },
-    "mutiny-wallet": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
     }
   },
   "other-features": {

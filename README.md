@@ -144,7 +144,6 @@ All the features supported:
 | Bitcoin Apps | bitcoin-apps | Specter Desktop | specter-desktop |
 | Bitcoin Apps | bitcoin-apps | Electrum Wallet | electrum-wallet |
 | Bitcoin Apps | bitcoin-apps | Sparrow Wallet | sparrow-wallet |
-| Bitcoin Apps | bitcoin-apps | Mutiny Wallet | mutiny-wallet |
 | Other Features | other-features | Prune Node Support | prune-node |
 | Other Features | other-features | Official Marketplace | official-marketplace |
 | Other Features | other-features | Thirdparty Marketplace | thirdparty-marketplace |
