@@ -7,35 +7,7 @@
       "value": "2022"
     }
   },
-  "company": {
-    "brand": {
-      "value": "MiniBolt"
-    },
-    "headquarters": {
-      "value": "-"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://minibolt.info"
-    },
-    "blog": {
-      "value": "-"
-    },
-    "twitter": {
-      "value": "-"
-    },
-    "nostr": {
-      "value": "2FakTor",
-      "url": "https://primal.net/p/npub1k9luehc8hg3c0upckdzzvusv66x3zt0eyw7290kclrpsndepz92sfcpp63"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "minibolt-guide",
-      "url": "https://github.com/minibolt-guide"
-    }
-  },
+  "company": "mini-bolt",
   "communities": {
     "telegram": {
       "value": "MiniBolt",

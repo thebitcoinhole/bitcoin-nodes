@@ -7,35 +7,7 @@
       "value": "2019"
     }
   },
-  "company": {
-    "brand": {
-      "value": "RoninDojo"
-    },
-    "headquarters": {
-      "value": "USA"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://ronindojo.io/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://blog.ronindojo.io/"
-    },
-    "twitter": {
-      "value": "@RoninDojoNode",
-      "url": "https://x.com/RoninDojoNode"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "-"
-    }
-  },
+  "company": "ronin-dojo",
   "communities": {
     "telegram": {
       "value": "RoninDojo",

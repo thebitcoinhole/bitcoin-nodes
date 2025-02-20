@@ -7,35 +7,7 @@
       "value": "2019"
     }
   },
-  "company": {
-    "brand": {
-      "value": "RaspiBolt"
-    },
-    "headquarters": {
-      "value": "-"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://raspibolt.org/"
-    },
-    "blog": {
-      "value": "-"
-    },
-    "twitter": {
-      "value": "@raspibolt",
-      "url": "https://x.com/raspibolt"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "raspibolt",
-      "url": "https://github.com/raspibolt"
-    }
-  },
+  "company": "raspi-bolt",
   "communities": {
     "telegram": {
       "value": "raspibolt",

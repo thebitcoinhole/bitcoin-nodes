@@ -7,35 +7,7 @@
       "value": "2019"
     }
   },
-  "company": {
-    "brand": {
-      "value": "RaspiBlitz"
-    },
-    "headquarters": {
-      "value": "-"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://raspiblitz.org/"
-    },
-    "blog": {
-      "value": "-"
-    },
-    "twitter": {
-      "value": "@RaspiBlitz",
-      "url": "https://x.com/RaspiBlitz"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "raspiblitz",
-      "url": "https://github.com/raspiblitz"
-    }
-  },
+  "company": "raspi-blitz",
   "communities": {
     "telegram": {
       "value": "raspiblitz",

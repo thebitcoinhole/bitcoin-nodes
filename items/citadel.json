@@ -7,36 +7,7 @@
       "value": "2021"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Citadel"
-    },
-    "headquarters": {
-      "value": "-"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://runcitadel.space/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://runcitadel.space/blog/"
-    },
-    "twitter": {
-      "value": "@runcitadel",
-      "url": "https://x.com/runcitadel"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "nirvati",
-      "url": "https://gitlab.com/nirvati/"
-    }
-  },
+  "company": "citadel",
   "communities": {
     "telegram": {
       "value": "-"

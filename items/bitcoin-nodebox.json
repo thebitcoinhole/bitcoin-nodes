@@ -7,36 +7,7 @@
       "value": "2023"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Ministry of Nodes"
-    },
-    "headquarters": {
-      "value": "Australia"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://www.ministryofnodes.com.au/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "sample"
-    },
-    "twitter": {
-      "value": "@ministryofnodes",
-      "url": "https://x.com/ministryofnodes"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "@ministryofnodes",
-      "url": "https://www.youtube.com/@ministryofnodes"
-    },
-    "github": {
-      "value": "-"
-    }
-  },
+  "company": "ministry-of-nodes",
   "communities": {
     "telegram": {
       "value": "ministryofnodes",

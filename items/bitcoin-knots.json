@@ -7,35 +7,7 @@
       "value": "2023"
     }
   },
-  "company": {
-    "brand": {
-      "value": "Bitcoin Knots"
-    },
-    "headquarters": {
-      "value": "-"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://bitcoinknots.org/"
-    },
-    "blog": {
-      "value": "-"
-    },
-    "twitter": {
-      "value": "@BitcoinKnots",
-      "url": "https://x.com/BitcoinKnots"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "bitcoinknots",
-      "url": "https://github.com/bitcoinknots/bitcoin"
-    }
-  },
+  "company": "bitcoin-knots",
   "communities": {
     "telegram": {
       "value": "Bitcoin_Knots",
